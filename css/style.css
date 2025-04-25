@@ -65,17 +65,21 @@ body{
 .hero__main{
     text-align: center;
     color: var(--very-dark-cyan);
+    padding: 75px .3rem;
 }
 
 .hero__title{
     font-family: var(--poppins);
+    padding-bottom: .2rem;
+    padding-top: 0rem;
+
 }
 
 .hero__paragraph{
     width: 90%;
-    line-height: 1.5;
+    line-height: 1.7;
     margin: 16px auto;
-    
+    font-size: .8rem;
 }
 
 .cta{
