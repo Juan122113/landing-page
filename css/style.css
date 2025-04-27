@@ -65,7 +65,7 @@ body{
 .hero__main{
     text-align: center;
     color: var(--very-dark-cyan);
-    padding: 75px .3rem;
+    padding: 75px .45rem;
 }
 
 .hero__title{
@@ -79,7 +79,7 @@ body{
     width: 90%;
     line-height: 1.7;
     margin: 16px auto;
-    font-size: .8rem;
+    font-size: .85rem;
 }
 
 .cta{
