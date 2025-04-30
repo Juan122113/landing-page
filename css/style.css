@@ -87,10 +87,11 @@ body{
     background-color: var(--pink);
     color: #fff;
     text-decoration: none;
-    padding: 16px 30px;
+    padding: 12px 35px;
     border-radius: 30px;
     margin-top: 16px;
-    font-weight: 600;
+    font-weight: 400;
+    font-size: .8rem;
 }
 
 .hero__picture{
