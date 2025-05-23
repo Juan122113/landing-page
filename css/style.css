@@ -144,6 +144,10 @@ body{
     width: 13%;
 }
 
+.hero__community2 {
+    margin: 0 7rem;
+}
+
 .wave{
     position: absolute;
     width: 100%;
