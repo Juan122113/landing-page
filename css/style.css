@@ -131,7 +131,7 @@ body{
 
 .hero__item2{
     overflow: hidden;
-    margin-top: 2.7rem;
+    margin-top: 2.5rem;
 }
 
 .hero__number2{
@@ -141,7 +141,8 @@ body{
 
 .hero__icon2{
     display: block;
-    width: 13%;
+    width: 7%;
+    margin-left: 5.5rem;
 }
 
 .hero__community2 {
