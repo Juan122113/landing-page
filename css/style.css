@@ -255,7 +255,13 @@ body{
     text-align: center;
     --wave-top: url(../images/bg-section-bottom-mobile-2.svg);
     --wave-bottom: url(../images/bg-footer-top-mobile.svg);
-    --padding-container: 190px 0 210px;
+    --padding-container: 150px 0 210px;
+}
+
+.subtitle4 {
+    margin: 16px 0 13px;
+    font-family: var(--poppins);
+    /* font-size: 1.25rem; */
 }
 
 .footer{
