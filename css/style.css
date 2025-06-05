@@ -269,6 +269,10 @@ body{
     background-color: var(--very-dark-cyan);
 }
 
+.footer__container{
+    padding-top: 1rem;
+}
+
 .footer__title{
     text-transform: uppercase;
     letter-spacing: 2px;
