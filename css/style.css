@@ -270,19 +270,22 @@ body{
 }
 
 .footer__container{
-    padding-top: 1rem;
+    padding-top: .5rem;
+    margin: 0 1.8rem;
 }
 
 .footer__title{
     text-transform: uppercase;
-    letter-spacing: 2px;
+    /* letter-spacing: 2px; */
     margin-bottom: 16px;
     font-family: var(--poppins);
+    font-size: 1.25rem;
 }
 
 .footer__paragraph{
     line-height: 1.5;
     margin: 16px 0 50px;
+    font-size: .9rem;
 }
 
 .footer__form{
