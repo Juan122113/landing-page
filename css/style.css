@@ -324,7 +324,17 @@ body{
 }
 
 .footer__content{
-    
+    margin-top: 6.5rem;
+}
+
+.footer__logo {
+    height: 70%;
+    width: 60%;
+}
+
+.footer__paragraph2 {
+    font-size: .9rem;
+    margin-top: 1rem;
 }
 
 .footer__contact{
