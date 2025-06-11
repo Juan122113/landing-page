@@ -335,15 +335,19 @@ body{
 .footer__paragraph2 {
     font-size: .9rem;
     margin-top: 1rem;
+    margin-right: 1rem;
+    line-height: 1.5;
 }
 
 .footer__contact{
     line-height: 50px;
+    margin-top: .5rem;
 }
 
 .footer__contact::after{
     content: "Phone: +1-543-123-4567";
-    margin-left: 10px;
+    margin-left: 15px;
+    font-size: .8rem;
 }
 
 .footer__contact--email::after{
