@@ -347,7 +347,11 @@ body{
 .footer__contact::after{
     content: "Phone: +1-543-123-4567";
     margin-left: 15px;
-    font-size: .8rem;
+    font-size: .9rem;
+}
+
+.footer__contact--email {
+    margin-top: -.8rem;
 }
 
 .footer__contact--email::after{
@@ -356,9 +360,10 @@ content: "example@huddle.com";
 
 .footer__social{
     display: flex;
-    justify-content: center;
+    justify-content: left;
     gap: 16px;
     margin-top: 30px;
+    width: 35%;
 }
 
 .footer__link{
