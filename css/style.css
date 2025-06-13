@@ -372,8 +372,23 @@ content: "example@huddle.com";
 }
 
 .footer__icon{
+    width: 110%;
+    display: block;
+    margin-left: -.5rem;
+}
+
+.footer__icon_instagram {
     width: 100%;
     display: block;
+    filter: invert(100%);
+    /* border: 5px solid white; */
+}
+
+.footer__icon_twitter {
+    width: 100%;
+    display: block;
+    filter: invert(100%);
+    /* border: 10px solid black; */
 }
 
 .footer__attribution{
