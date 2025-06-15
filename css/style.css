@@ -378,17 +378,20 @@ content: "example@huddle.com";
 }
 
 .footer__icon_instagram {
-    width: 100%;
+    width: 110%;
     display: block;
     filter: invert(100%);
     /* border: 5px solid white; */
+    margin-left: -.5rem;
 }
 
 .footer__icon_twitter {
-    width: 100%;
+    width: 80%;
     display: block;
     filter: invert(100%);
     /* border: 10px solid black; */
+    margin-left: -.5rem;
+    margin-top: .3rem;
 }
 
 .footer__attribution{
