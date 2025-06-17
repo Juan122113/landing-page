@@ -261,7 +261,6 @@ body{
 .subtitle4 {
     margin: 16px 0 13px;
     font-family: var(--poppins);
-    /* font-size: 1.25rem; */
 }
 
 .footer{
@@ -276,7 +275,6 @@ body{
 
 .footer__title{
     text-transform: uppercase;
-    /* letter-spacing: 2px; */
     margin-bottom: 16px;
     font-family: var(--poppins);
     font-size: 1.25rem;
@@ -292,8 +290,6 @@ body{
     display: flex;
     flex-wrap: wrap;
     margin-bottom: 80px;
-    /* padding-bottom: -5rem; */
-    /* height: 0rem; */
     margin-right: 1.2rem;
 }
 
@@ -307,7 +303,6 @@ body{
     border-radius: 3px;
     padding: 13px 6px;
     margin-bottom: 15px;
-    /* margin-right: 1rem; */
 }
 
 .footer__cta{
@@ -381,7 +376,6 @@ content: "example@huddle.com";
     width: 110%;
     display: block;
     filter: invert(100%);
-    /* border: 5px solid white; */
     margin-left: -.5rem;
 }
 
@@ -389,7 +383,6 @@ content: "example@huddle.com";
     width: 80%;
     display: block;
     filter: invert(100%);
-    /* border: 10px solid black; */
     margin-left: -.5rem;
     margin-top: .3rem;
 }
