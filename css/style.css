@@ -402,7 +402,26 @@ content: "example@huddle.com";
     .hero{
         --wave-bottom: url(../images/bg-section-top-desktop-1.svg);
     }
-    
+
+    .hero__nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    --padding-container: 1.5rem 0 40px .5rem;
+    }
+
+    .hero__logo{
+    width: 20%;
+    max-width: 260px;
+    margin-top: 3.5rem;
+    margin-left: -3.2rem;
+    }
+
+    .hero__huddle{
+    width: 100%;
+    display: block;
+    }
+
     .hero__title{
         font-size: 48px;
     }
