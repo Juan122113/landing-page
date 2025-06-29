@@ -449,12 +449,25 @@ content: "example@huddle.com";
     /* left: 4rem; */
     }
 
+    .hero__main{
+    /* text-align: center; */
+    /* color: var(--very-dark-cyan); */
+    padding: 12rem .3rem 20px;
+    }
+
     .hero__title{
         font-size: 48px;
     }
 
     .hero__paragraph{
         width: 70%;
+         /* width: 90%; */
+        /* line-height: 1.55; */
+        /* margin: 16px auto; */
+        font-size: 1.2rem;
+        /* font-weight: 600; */
+        /* text-align: center; */
+        padding: 0 7rem;
     }
 
     .cta{
