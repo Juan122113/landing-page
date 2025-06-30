@@ -29,7 +29,7 @@ body{
 }
 
 .hero{
-    min-height: 100vh;
+    /* min-height: 100vh; */
     position: relative;
     --wave-bottom: url(../images/bg-section-top-mobile-1.svg);
 }
@@ -93,6 +93,7 @@ body{
     margin-top: 1.8rem;
     font-weight: 400;
     font-size: .8rem;
+    box-shadow: ;
 }
 
 .hero__picture{
@@ -471,7 +472,16 @@ content: "example@huddle.com";
     }
 
     .cta{
-        padding: 16px 45px;
+        /* padding: 16px 45px; */
+        /* display: inline-block; */
+        /* background-color: var(--pink); */
+        /* color: #fff; */
+        /* text-decoration: none; */
+        padding: 1.6rem 6.3rem;
+        border-radius: 50px;
+        /* margin-top: 1.8rem; */
+        font-weight: 600;
+        font-size: 1.3rem;
     }
 
     .hero__numbers{
