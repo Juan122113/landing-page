@@ -73,7 +73,6 @@ body{
     font-family: var(--poppins);
     padding-bottom: .4rem;
     padding-top: 0rem;
-
 }
 
 .hero__paragraph{
@@ -460,9 +459,13 @@ content: "example@huddle.com";
     /* color: var(--very-dark-cyan); */
     padding: 12rem .3rem 20px;
     }
-
+    
     .hero__title{
-        font-size: 48px;
+    /* font-family: var(--poppins); */
+    /* padding-bottom: .4rem; */
+    /* padding-top: 0rem; */
+    font-size: 50.5px;
+    word-spacing: 1.5px;
     }
 
     .hero__paragraph{
@@ -473,7 +476,7 @@ content: "example@huddle.com";
         font-size: 1.2rem;
         /* font-weight: 600; */
         /* text-align: center; */
-        padding: 0 7rem;
+        padding: .5rem 7rem;
     }
 
     .cta{
@@ -482,11 +485,13 @@ content: "example@huddle.com";
         /* background-color: var(--pink); */
         /* color: #fff; */
         /* text-decoration: none; */
-        padding: 1.6rem 6.3rem;
+        padding: 1.8rem 6.3rem;
         border-radius: 50px;
         /* margin-top: 1.8rem; */
         font-weight: 600;
         font-size: 1.3rem;
+        /* margin-bottom: 1.8rem; */
+        margin-top: 1.5rem;
     }
 
     .hero__numbers{
@@ -520,7 +525,6 @@ content: "example@huddle.com";
     }
 
     .question{
-
         --wave-top: url(../images/bg-section-bottom-desktop-2.svg);
         --wave-bottom: url(../images/bg-footer-top-desktop.svg);
 
