@@ -496,11 +496,15 @@ content: "example@huddle.com";
         margin-top: 1.5rem;
     }
 
+    .hero__picture{
+    margin-top: 110px;
+    }
+
     .hero__img{
     width: 90%;
-    max-width: 600px;
-    margin: 0 auto;
-    display: block;
+    max-width: 1050px;
+    /* margin: 0 auto; */
+    /* display: block; */
     }
 
     .hero__numbers{
