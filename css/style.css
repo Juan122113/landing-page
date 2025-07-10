@@ -72,7 +72,7 @@ body{
 .hero__title{
     font-family: var(--poppins);
     padding-bottom: .4rem;
-    padding-top: 0rem;
+    /* padding-top: 0rem; */
 }
 
 .hero__paragraph{
@@ -467,20 +467,20 @@ content: "example@huddle.com";
     .hero__title{
     /* font-family: var(--poppins); */
     /* padding-bottom: .4rem; */
-    /* padding-top: 0rem; */
+    padding-top: 2rem;
     font-size: 48px;
     word-spacing: 1px;
     }
 
     .hero__paragraph{
-        width: 70%;
+        width: 75%;
          /* width: 90%; */
         /* line-height: 1.55; */
         /* margin: 16px auto; */
-        font-size: 1.1rem;
+        font-size: 1rem;
         font-weight: 400;
         /* text-align: center; */
-        padding: .1rem 6.825rem;
+        padding: 0rem 6.825rem;
     }
 
     .cta{
