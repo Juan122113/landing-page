@@ -401,7 +401,7 @@ content: "example@huddle.com";
 @media (min-width: 768px){
 
     body {
-        width: auto;
+        /* width: auto; */
     }
 
     .container{
@@ -489,11 +489,11 @@ content: "example@huddle.com";
         /* background-color: var(--pink); */
         /* color: #fff; */
         /* text-decoration: none; */
-        padding: 1.6rem 6.3rem;
+        padding: 1.5rem 6rem;
         border-radius: 50px;
         /* margin-top: 1.8rem; */
         font-weight: 600;
-        font-size: 1.3rem;
+        font-size: .9rem;
         /* margin-bottom: 1.8rem; */
         margin-top: 1.5rem;
     }
