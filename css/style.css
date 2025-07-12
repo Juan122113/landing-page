@@ -467,9 +467,11 @@ content: "example@huddle.com";
     .hero__title{
     /* font-family: var(--poppins); */
     /* padding-bottom: .4rem; */
-    padding-top: 2rem;
-    font-size: 48px;
-    word-spacing: 1px;
+    padding-top: 5.8rem;
+    font-size: 46px;
+    /* word-spacing: 5px; */
+    width: 103%;
+    letter-spacing: 1px;
     }
 
     .hero__paragraph{
