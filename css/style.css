@@ -455,7 +455,7 @@ content: "example@huddle.com";
     /* position: relative; */
     position: absolute;
     /* left: 3rem; */
-    right: 1.5rem;
+    right: 4rem;
     }
 
     .hero__main{
@@ -472,15 +472,17 @@ content: "example@huddle.com";
     /* word-spacing: 5px; */
     width: 103%;
     letter-spacing: 1px;
+    position: relative;
+    left: -1.3rem;
     }
 
     .hero__paragraph{
-        width: 75%;
+        width: 68%;
          /* width: 90%; */
         /* line-height: 1.55; */
         /* margin: 16px auto; */
-        font-size: 1rem;
-        font-weight: 400;
+        font-size: 1.2rem;
+        font-weight: 600;
         /* text-align: center; */
         padding: 0rem 6.825rem;
     }
