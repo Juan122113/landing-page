@@ -114,20 +114,19 @@ body{
     align-items: center;
     padding-bottom: 100px;
     gap: 60px;
-
 }
 
 .hero__item{
     overflow: hidden;
 }
 
-.hero__number{
-    font-size: 60px;
-}
-
 .hero__icon{
     display: block;
     width: 18%;
+}
+
+.hero__number{
+    font-size: 60px;
 }
 
 .hero__item2{
@@ -517,6 +516,15 @@ content: "example@huddle.com";
     .hero__numbers{
         justify-content: space-around;
         flex-direction: row;
+    }
+
+    .hero__icon{
+    /* display: block; */
+    width: 18%;
+    }
+
+    .hero__number{
+    font-size: 7rem;
     }
 
     .section--white{
