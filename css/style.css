@@ -536,6 +536,12 @@ content: "example@huddle.com";
     /* font-weight: 700; */
     }
 
+    .hero__community2 {
+    margin: .5rem 9rem 0 8rem;
+    text-align: center;
+    font-size: .8rem;
+    }
+
     .section--white{
         --wave-top: url(../images/bg-section-bottom-desktop-1.svg);
         --wave-bottom: url(../images/bg-section-top-desktop-2.svg);
