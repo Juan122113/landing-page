@@ -549,6 +549,11 @@ content: "example@huddle.com";
         left: 3rem;
     }
 
+    .hero__item2{
+    overflow: visible;
+    margin-top: 2rem;
+    }
+
     .hero__number2 {
     font-size: 6rem;
     /* font-weight: 700; */
