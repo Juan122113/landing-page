@@ -551,7 +551,16 @@ content: "example@huddle.com";
 
     .hero__item2{
     overflow: visible;
-    margin-top: 2rem;
+    margin-top: 1.8rem;
+    }
+
+    .hero__icon2{
+    /* display: block; */
+    width: 9%;
+    margin-left: 7rem;
+    /* margin-bottom: 1.5rem; */
+    position: relative;
+    bottom: .5rem;
     }
 
     .hero__number2 {
