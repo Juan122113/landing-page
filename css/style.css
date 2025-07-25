@@ -545,8 +545,9 @@ content: "example@huddle.com";
         /* margin-left: 4rem;
         margin-top: .5rem; */
         position: relative;
-        top: .5rem;
+        top: .6rem;
         left: 3rem;
+        opacity: .5;
     }
 
     .hero__item2{
@@ -576,6 +577,12 @@ content: "example@huddle.com";
     /* margin: .5rem 9rem 0 8rem; */
     /* text-align: center; */
     font-size: 1.5rem;
+    /* margin-left: 2rem; */
+    position: relative;
+    left: 1.2rem;
+    bottom: .2rem;
+    font-weight: 100;
+    opacity: .5;
     }
 
     .section--white{
