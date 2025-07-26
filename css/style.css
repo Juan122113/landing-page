@@ -585,6 +585,14 @@ content: "example@huddle.com";
     opacity: .5;
     }
 
+    .wave--bottom{
+    /* left: 0;
+    bottom: 0;
+    background-image: var(--wave-bottom); */
+    /* top: 3rem;
+    position: relative; */
+    }
+
     .section--white{
         --wave-top: url(../images/bg-section-bottom-desktop-1.svg);
         --wave-bottom: url(../images/bg-section-top-desktop-2.svg);
