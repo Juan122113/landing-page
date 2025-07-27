@@ -32,7 +32,7 @@ body{
 .hero{
     /* min-height: 100vh; */
     position: relative;
-    --wave-bottom: url(../images/bg-section-top-mobile-1.svg);
+    /* --wave-bottom: url(../images/bg-section-top-mobile-1.svg); */
 }
 
 .hero__nav{
@@ -587,8 +587,8 @@ content: "example@huddle.com";
 
     .wave--bottom{
     /* left: 0;
-    bottom: 0;
-    background-image: var(--wave-bottom); */
+    bottom: 0; */
+    background-image: url(../images/bg-section-top-desktop-1.svg);
     /* top: 3rem;
     position: relative; */
     }
