@@ -628,6 +628,12 @@ content: "example@huddle.com";
         text-align: start;
     }
 
+    .subtitle{
+        /* margin: 16px; */
+        /* font-family: var(--poppins); */
+        font-size: 2.25rem;
+    }
+
     .question{
         --wave-top: url(../images/bg-section-bottom-desktop-2.svg);
         --wave-bottom: url(../images/bg-footer-top-desktop.svg);
