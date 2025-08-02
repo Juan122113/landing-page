@@ -631,7 +631,11 @@ content: "example@huddle.com";
     .subtitle{
         /* margin: 16px; */
         /* font-family: var(--poppins); */
-        font-size: 2.25rem;
+        font-size: 2.5rem;
+        margin-top: 9rem;
+        /* margin-right: 1rem; */
+        position: relative;
+        right: .3rem;
     }
 
     .question{
