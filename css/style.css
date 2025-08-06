@@ -609,12 +609,14 @@ content: "example@huddle.com";
     }
 
     .section__img{
-        width: 85%;
+        width: 86%;
         max-width: 900px;
         /* display: block;
         margin: 0 auto; */
         position: relative;
-        top: 5rem;
+        top: 4rem;
+        /* right: .1rem; */
+        left: .6rem;
     }
 
     .section__picture{
@@ -626,6 +628,9 @@ content: "example@huddle.com";
         width: 45%;
         margin: 0%;
         text-align: start;
+        position: relative;
+        /* top: .5rem; */
+        bottom: 1rem;
     }
 
     .subtitle{
