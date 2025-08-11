@@ -653,9 +653,11 @@ content: "example@huddle.com";
         line-height: 1.5rem;
     }
 
-    /* .section__container--inverse {
-        margin-top: 11rem;
-    } */
+    .section__container--inverse {
+        /* margin-top: 11rem; */
+        position: relative;
+        top: 10rem;
+    }
 
     .wave--top{
         left: 0;
@@ -670,9 +672,9 @@ content: "example@huddle.com";
         bottom: 500px;
     }
 
-    .section--white {
+    /* .section--white {
         margin-top: 11rem;
-    }
+    } */
 
     .section__img2 {
         width: 80%;
