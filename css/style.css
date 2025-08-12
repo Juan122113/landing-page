@@ -656,7 +656,7 @@ content: "example@huddle.com";
     .section__container--inverse {
         /* margin-top: 11rem; */
         position: relative;
-        top: 10rem;
+        top: 8rem;
     }
 
     .wave--top{
@@ -677,10 +677,12 @@ content: "example@huddle.com";
     } */
 
     .section__img2 {
-        width: 80%;
-        max-width: 350px;
+        width: 86%;
+        max-width: 900px;
         display: block;
         margin: 0 auto;
+        position: relative;
+        top: 5rem;
     }
 
     .question{
