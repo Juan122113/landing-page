@@ -212,6 +212,11 @@ body{
     margin: 0 .9rem;
 }
 
+/* .section__texts2 {
+    margin-top: 65px;
+    text-align: center;
+} */
+
 .section__img2 {
     width: 80%;
     max-width: 350px;
@@ -598,6 +603,12 @@ content: "example@huddle.com";
         --wave-bottom: url(../images/bg-section-top-desktop-2.svg);
     }
 
+    .section{
+        /* background-color: var(--very-pale-blue); */
+        --padding-container: 78px 0 130px;
+        /* margin-bottom: 2rem; */
+    }
+
     .section__container{
         flex-direction: row-reverse;
         align-items: center;
@@ -684,6 +695,10 @@ content: "example@huddle.com";
         position: relative;
         top: 5rem;
     }
+
+    /* .section__texts2 {
+
+    } */
 
     .question{
         --wave-top: url(../images/bg-section-bottom-desktop-2.svg);
