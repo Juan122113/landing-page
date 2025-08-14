@@ -212,6 +212,12 @@ body{
     margin: 0 .9rem;
 }
 
+.wave--bottom2 {
+    left: 0;
+    bottom: 0;
+    background-image: var(--wave-bottom);
+}
+
 /* .section__texts2 {
     margin-top: 65px;
     text-align: center;
@@ -601,6 +607,8 @@ content: "example@huddle.com";
     .section--white{
         --wave-top: url(../images/bg-section-bottom-desktop-1.svg);
         --wave-bottom: url(../images/bg-section-top-desktop-2.svg);
+        /* margin-bottom: 5rem; */
+        /* padding-bottom: ; */
     }
 
     .section{
@@ -617,6 +625,8 @@ content: "example@huddle.com";
 
     .section__container--inverse{
         flex-direction: row;
+        position: relative;
+        top: 8rem;
     }
 
     .section__img{
@@ -664,11 +674,11 @@ content: "example@huddle.com";
         line-height: 1.5rem;
     }
 
-    .section__container--inverse {
-        /* margin-top: 11rem; */
+    /* .section__container--inverse {
+        margin-top: 11rem;
         position: relative;
         top: 8rem;
-    }
+    } */
 
     .wave--top{
         left: 0;
@@ -680,12 +690,19 @@ content: "example@huddle.com";
         position: absolute;
         /* bottom: 23rem; */
         /* bottom: 10%; */
-        bottom: 500px;
+        bottom: 1700px;
     }
 
-    /* .section--white {
-        margin-top: 11rem;
+    /* .wave--bottom {
+        position: absolute;
+        top: 500px;
+        bottom: 500px;
     } */
+
+     /* .section--white {
+        /* margin-top: 11rem; */
+        /* padding-bottom: 5rem; */
+        /* }   */
 
     .section__img2 {
         width: 86%;
