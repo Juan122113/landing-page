@@ -32,7 +32,7 @@ body{
 .hero{
     /* min-height: 100vh; */
     position: relative;
-    /* --wave-bottom: url(../images/bg-section-top-mobile-1.svg); */
+    --wave-bottom: url(../images/bg-section-top-mobile-1.svg);
 }
 
 .hero__nav{
@@ -607,7 +607,7 @@ content: "example@huddle.com";
     .section--white{
         --wave-top: url(../images/bg-section-bottom-desktop-1.svg);
         --wave-bottom: url(../images/bg-section-top-desktop-2.svg);
-        /* margin-bottom: 5rem; */
+        margin-bottom: 15rem;
         /* padding-bottom: ; */
     }
 
@@ -705,17 +705,35 @@ content: "example@huddle.com";
         /* }   */
 
     .section__img2 {
-        width: 86%;
+        width: 88.5%;
         max-width: 900px;
         display: block;
         margin: 0 auto;
         position: relative;
-        top: 5rem;
+        top: 7rem;
+        right: 1.2rem;
     }
+
+    /* .section__paragraph2 {
+        font-size: .9rem;
+        margin: 0 .5rem;
+        letter-spacing: -.01rem;
+        line-height: 1.3rem;
+        position: relative;
+        top: 5rem;
+    } */
 
     /* .section__texts2 {
 
     } */
+
+    .wave--bottom2 {
+        /* left: 0; */
+        /* bottom: 10; */
+        /* background-image: var(--wave-bottom); */
+        position: relative;
+        top: 15rem;
+    }
 
     .question{
         --wave-top: url(../images/bg-section-bottom-desktop-2.svg);
