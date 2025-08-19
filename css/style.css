@@ -218,10 +218,10 @@ body{
     background-image: var(--wave-bottom);
 }
 
-/* .section__texts2 {
+.section__texts2 {
     margin-top: 65px;
     text-align: center;
-} */
+}
 
 .section__img2 {
     width: 80%;
@@ -723,9 +723,14 @@ content: "example@huddle.com";
         top: 5rem;
     } */
 
-    /* .section__texts2 {
-
-    } */
+    .section__texts2 {
+        width: 45%;
+        margin: 0%;
+        text-align: start;
+        position: relative;
+        /* top: .5rem; */
+        bottom: 1rem;
+    }
 
     .wave--bottom2 {
         /* left: 0; */
@@ -738,7 +743,6 @@ content: "example@huddle.com";
     .question{
         --wave-top: url(../images/bg-section-bottom-desktop-2.svg);
         --wave-bottom: url(../images/bg-footer-top-desktop.svg);
-
     }
 
     .footer__container{
