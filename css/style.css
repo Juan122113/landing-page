@@ -728,8 +728,9 @@ content: "example@huddle.com";
         margin: 0%;
         text-align: start;
         position: relative;
-        /* top: .5rem; */
-        bottom: 1rem;
+        top: 1.5rem;
+        /* bottom: 1rem; */
+        left: .5rem;
     }
 
     .wave--bottom2 {
