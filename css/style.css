@@ -714,14 +714,14 @@ content: "example@huddle.com";
         right: 1.2rem;
     }
 
-    /* .section__paragraph2 {
-        font-size: .9rem;
-        margin: 0 .5rem;
+    .section__paragraph2 {
+        font-size: 1.04rem;
+        margin: 0 .6rem;
         letter-spacing: -.01rem;
-        line-height: 1.3rem;
+        line-height: 1.5rem;
         position: relative;
-        top: 5rem;
-    } */
+        top: .6rem;
+    }
 
     .section__texts2 {
         width: 45%;
