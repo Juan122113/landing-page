@@ -16,9 +16,14 @@
     --padding-container: 80px 0;
 }
 
+html {
+    height: 100%;
+}
+
 body{
     font-family: var(--open-sans);
     /* width: 100%; */
+    min-height: 100vh;
 }
 
 .container{
@@ -766,7 +771,25 @@ content: "example@huddle.com";
         /* margin: 0 auto; */
         position: relative;
         left: 1.2rem;
-        bottom: 1.5rem;
+        bottom: 1.3rem;
+    }
+
+    .subtitle3 {
+        /* margin: 16px 0 13px; */
+        /* font-family: var(--poppins); */
+        font-size: 2.5rem;
+        /* margin-bottom: 1.5rem; */
+        position: relative;
+        bottom: 1rem;
+    }
+
+    .section__paragraph3 {
+        font-size: 1rem;
+        margin: 0;
+        line-height: 1.5rem;
+        margin-right: .5rem;
+        position: relative;
+        bottom: .4rem;
     }
 
     .question{
