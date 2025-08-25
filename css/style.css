@@ -1,5 +1,6 @@
 *{
     margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 
@@ -18,12 +19,15 @@
 
 html {
     height: 100%;
+    /* width: 100%; */
+    /* width: 100vvw; */
 }
 
 body{
     font-family: var(--open-sans);
     /* width: 100%; */
     min-height: 100vh;
+    max-width: 400vw;
 }
 
 .container{
