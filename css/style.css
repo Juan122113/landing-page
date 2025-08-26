@@ -20,7 +20,7 @@
 html {
     height: 100%;
     /* width: 100%; */
-    /* width: 100vvw; */
+    /* width: 100vw; */
 }
 
 body{
@@ -28,6 +28,9 @@ body{
     /* width: 100%; */
     min-height: 100vh;
     max-width: 400vw;
+    /* min-width: 100vw; */
+    /* width: 100%; */
+    /* width: 100vw; */
 }
 
 .container{
@@ -799,6 +802,15 @@ content: "example@huddle.com";
     .question{
         --wave-top: url(../images/bg-section-bottom-desktop-2.svg);
         --wave-bottom: url(../images/bg-footer-top-desktop.svg);
+        position: relative;
+        top: 3rem;
+    }
+
+    .subtitle4 {
+        margin: 16px 0 13px 12px;
+        /* font-family: var(--poppins); */
+        font-size: 2.5rem;
+        word-spacing: -.1rem;
     }
 
     .footer__container{
