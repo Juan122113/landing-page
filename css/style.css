@@ -31,6 +31,7 @@ body{
     /* min-width: 100vw; */
     /* width: 100%; */
     /* width: 100vw; */
+    /* height: 100%; */
 }
 
 .container{
@@ -292,6 +293,19 @@ body{
     font-family: var(--poppins);
 }
 
+.cta_question {
+    display: inline-block;
+    background-color: var(--pink);
+    color: #fff;
+    text-decoration: none;
+    padding: 12px 40px;
+    border-radius: 30px;
+    margin-top: 1.8rem;
+    font-weight: 400;
+    font-size: .8rem;
+    box-shadow: .1rem .1rem 5px 0 rgba(0, 0, 0, 0.257);
+}
+
 .footer{
     color: #fff;
     background-color: var(--very-dark-cyan);
@@ -432,13 +446,13 @@ content: "example@huddle.com";
         width: auto;
     } */
 
-    .container{
+    /* .container{ */
     /* width: 90%; */
     /* max-width: 1200px; */
     /* margin: 0 auto; */
-    overflow: visible;
+    /* overflow: visible; */
     /* padding: var(--padding-container); */
-    }
+    /* } */
 
     .hero{
         --wave-bottom: url(../images/bg-section-top-desktop-1.svg);
@@ -811,6 +825,19 @@ content: "example@huddle.com";
         /* font-family: var(--poppins); */
         font-size: 2.5rem;
         word-spacing: -.1rem;
+    }
+
+    .cta_question {
+        /* display: inline-block; */
+        /* background-color: var(--pink); */
+        /* color: #fff; */
+        /* text-decoration: none; */
+        padding: 12px 40px;
+        border-radius: 30px;
+        margin-top: 1.8rem;
+        font-weight: 400;
+        font-size: .8rem;
+        box-shadow: .1rem .1rem 5px 0 rgba(0, 0, 0, 0.257); 
     }
 
     .footer__container{
