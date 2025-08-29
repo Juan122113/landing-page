@@ -826,6 +826,18 @@ content: "example@huddle.com";
         top: 3rem;
     }
 
+    .wave--top--question {
+        /* left: 0; */
+        /* top: 0; */
+        background-image: var(--wave-top);
+        position: relative;
+        position: absolute;
+        /* top: 15rem; */
+        bottom: 15rem;
+        /* bottom: 100; */
+        /* bottom: 100px; */
+    }
+
     .subtitle4 {
         margin: 16px 0 13px 12px;
         /* font-family: var(--poppins); */
