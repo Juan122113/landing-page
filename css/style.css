@@ -832,10 +832,12 @@ content: "example@huddle.com";
         background-image: var(--wave-top);
         position: relative;
         position: absolute;
-        /* top: 15rem; */
+        top: 15rem;
+        top: -5rem;
         bottom: 15rem;
         /* bottom: 100; */
         /* bottom: 100px; */
+        bottom: 150%;
     }
 
     .subtitle4 {
