@@ -259,6 +259,7 @@ body{
 .section3 {
     background-color: var(--very-pale-blue);
     --padding-container: 100px 0 110px;
+    z-index: 0;
 }
 
 .section__img3 {
@@ -833,11 +834,12 @@ content: "example@huddle.com";
         position: relative;
         position: absolute;
         top: 15rem;
-        top: -5rem;
+        top: -6rem;
         bottom: 15rem;
         /* bottom: 100; */
         /* bottom: 100px; */
-        bottom: 150%;
+        /* bottom: 150%; */
+        z-index: 100;
     }
 
     .subtitle4 {
