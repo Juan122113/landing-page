@@ -834,6 +834,11 @@ content: "example@huddle.com";
         z-index: 0;
     }
 
+    .question__texts {
+        position: relative;
+        top: 4.9rem;
+    }
+
     .wave--top--question {
         /* left: 0; */
         /* top: 0; */
@@ -853,7 +858,7 @@ content: "example@huddle.com";
         margin: 16px 0 13px 12px;
         /* font-family: var(--poppins); */
         font-size: 2.5rem;
-        word-spacing: -.1rem;
+        /* word-spacing: -.1rem; */
     }
 
     .cta_question {
@@ -861,12 +866,12 @@ content: "example@huddle.com";
         /* background-color: var(--pink); */
         /* color: #fff; */
         /* text-decoration: none; */
-        padding: 12px 40px;
-        border-radius: 30px;
-        margin-top: 1.8rem;
-        font-weight: 400;
-        font-size: .8rem;
-        box-shadow: .1rem .1rem 5px 0 rgba(0, 0, 0, 0.257); 
+        padding: 26px 103px;
+        border-radius: 50px;
+        margin-top: 1.6rem;
+        font-weight: 600;
+        font-size: 1.25rem;
+        box-shadow: .1rem .2rem 15px 0 rgba(0, 0, 0, 0.257); 
     }
 
     .footer__container{
