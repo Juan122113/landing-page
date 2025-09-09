@@ -313,6 +313,12 @@ body{
     background-image: var(--wave-top);
 }
 
+.wave--bottom--question {
+    left: 0;
+    bottom: 0;
+    background-image: var(--wave-bottom);
+}
+
 .footer{
     color: #fff;
     background-color: var(--very-dark-cyan);
@@ -872,6 +878,12 @@ content: "example@huddle.com";
         font-weight: 600;
         font-size: 1.25rem;
         box-shadow: .1rem .2rem 15px 0 rgba(0, 0, 0, 0.257); 
+    }
+
+    .wave--bottom--question {
+        left: 0;
+        bottom: 0;
+        background-image: var(--wave-bottom);
     }
 
     .footer__container{
