@@ -884,6 +884,8 @@ content: "example@huddle.com";
         left: 0;
         bottom: 0;
         background-image: var(--wave-bottom);
+        position: relative;
+        bottom: 3rem;
     }
 
     .footer__container{
@@ -896,6 +898,9 @@ content: "example@huddle.com";
         width: 50%;
         max-width: 350px;
         order: 1;
+        position: relative;
+        top: 8rem;
+        right: 5rem;
     }
 
     .footer__content{
