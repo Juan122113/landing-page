@@ -327,6 +327,10 @@ body{
 .footer__container{
     padding-top: .5rem;
     margin: 0 1.8rem;
+    overflow: hidden;
+    /* margin: 0 auto; */
+    /* width: 90%;
+    max-width: 1200px; */
 }
 
 .footer__title{
@@ -892,6 +896,7 @@ content: "example@huddle.com";
         --padding-container: 110px 0;
         display: flex;
         justify-content: space-between;
+        width: 100%;
     }
 
     .footer__newsletter{
