@@ -86,6 +86,7 @@ body{
     font-family: var(--poppins);
     padding-bottom: .4rem;
     /* padding-top: 0rem; */
+    font-size: 1.5rem;
 }
 
 .hero__paragraph{
@@ -182,6 +183,8 @@ body{
     left: 0;
     top: 0;
     background-image: var(--wave-top);
+    position: relative;
+    top: 5rem;
 }
 
 .section{
