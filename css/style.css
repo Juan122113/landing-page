@@ -183,8 +183,8 @@ body{
     left: 0;
     top: 0;
     background-image: var(--wave-top);
-    position: relative;
-    top: 5rem;
+    /* position: relative; */
+    /* top: 5rem; */
 }
 
 .section{
@@ -652,7 +652,7 @@ content: "example@huddle.com";
     /* left: 0;
     bottom: 0; */
     background-image: url(../images/bg-section-top-desktop-1.svg);
-    top: 3rem;
+    /* top: 0rem; */
     position: relative;
     }
 
