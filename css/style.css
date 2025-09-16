@@ -652,7 +652,7 @@ content: "example@huddle.com";
     /* left: 0;
     bottom: 0; */
     background-image: url(../images/bg-section-top-desktop-1.svg);
-    /* top: 0rem; */
+    top: 1rem;
     position: relative;
     }
 
@@ -908,12 +908,16 @@ content: "example@huddle.com";
         order: 1;
         position: relative;
         top: 8rem;
-        right: 5rem;
+        /* right: 5rem; */
+        right: 22%;
     }
 
     .footer__content{
-        width: 50%;
-        max-width: 300px;
+        width: 30%;
+        max-width: 500px;
+        height: 5%;
+        position: relative;
+        left: 7%;
     }
 
     .footer__paragraph{
