@@ -25,13 +25,14 @@ html {
 
 body{
     font-family: var(--open-sans);
-    /* width: 100%; */
+    width: 100%;
     min-height: 100vh;
-    max-width: 400vw;
+    /* max-width: 400vw; */
     /* min-width: 100vw; */
     /* width: 100%; */
     /* width: 100vw; */
     /* height: 100%; */
+    margin: 0 auto;
 }
 
 .container{
@@ -899,7 +900,7 @@ content: "example@huddle.com";
         --padding-container: 110px 0;
         display: flex;
         justify-content: space-between;
-        width: 100%;
+        /* width: 100%; */
     }
 
     .footer__newsletter{
@@ -909,7 +910,7 @@ content: "example@huddle.com";
         position: relative;
         top: 8rem;
         /* right: 5rem; */
-        right: 22%;
+        right: 19%;
     }
 
     .footer__form {
