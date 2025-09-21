@@ -926,6 +926,7 @@ content: "example@huddle.com";
         top: 8rem;
         /* right: 5rem; */
         right: 19%;
+        height: 5rem;
     }
 
     .footer__title{
@@ -938,7 +939,7 @@ content: "example@huddle.com";
     .footer__form {
         /* display: flex; */
         flex-wrap: nowrap;
-        /* margin-bottom: 80px; */
+        margin-bottom: 0;
         /* margin-right: 1.2rem; */
     }
 
@@ -974,14 +975,41 @@ content: "example@huddle.com";
     .footer__content{
         width: 30%;
         max-width: 500px;
-        height: 5%;
+        height: 1%;
+        /* height: 100px; */
         position: relative;
-        left: 7%;
-        top: 1.7rem;
+        left: 6.7%;
+        /* top: 1.7rem; */
+        /* margin-top: 2rem; */
+    }
+
+    .footer__logo {
+        height: 70%;
+        width: 57%;
+        margin-top: 1.5rem;
     }
 
     .footer__paragraph{
         margin: 16px 0 30px;
+    }
+
+    .footer__paragraph2 {
+        font-size: .9rem;
+        margin-top: 1.3rem;
+        margin-right: 4.2rem;
+        line-height: 1.7;
+    }
+
+    .footer__contact{
+        line-height: 0px;
+        margin-top: 1.3rem;
+        /* font-size: 5rem; */
+    }
+
+    .footer__contact::after{
+    /* content: "Phone: +1-543-123-4567"; */
+        /* margin-left: 15px; */
+        font-size: 1rem;
     }
     
     }
