@@ -1011,5 +1011,11 @@ content: "example@huddle.com";
         /* margin-left: 15px; */
         font-size: 1rem;
     }
+
+    .footer__img {
+        /* margin-top: .5rem; */
+        position: relative;
+        top: .2rem;
+    }
     
     }
