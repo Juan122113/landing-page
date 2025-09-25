@@ -1017,5 +1017,9 @@ content: "example@huddle.com";
         position: relative;
         top: .2rem;
     }
+
+    .footer__contact--email {
+        margin-top: 1.5rem;
+    }   
     
     }
