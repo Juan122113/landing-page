@@ -344,6 +344,7 @@ body{
     color: #fff;
     background-color: var(--very-dark-cyan);
     overflow: visible;
+    height: 100%;
 }
 
 .footer__container{
