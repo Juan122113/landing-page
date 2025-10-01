@@ -24,6 +24,7 @@ html {
     margin: 0;
     padding: 0;
     /* background-color: #000; */
+    /* overflow: hidden; */
 }
 
 body{
@@ -42,6 +43,7 @@ body{
     /* display: flex; */
     /* flex-direction: column; */
     /* max-width: 2560px; */
+    /* overflow: hidden; */
 }
 
 /* .main {
@@ -56,7 +58,6 @@ body{
     /* overflow: auto; */
     overflow: visible;
     /* overflow: clip; */
-    /* overflow: hidden; */
     padding: var(--padding-container);
 }
 
@@ -81,6 +82,8 @@ body{
 .hero__huddle{
     width: 100%;
     display: block;
+    max-width: 100%;
+    height: auto;
 }
 
 .hero__cta{
@@ -135,8 +138,10 @@ body{
 .hero__img{
     width: 90%;
     max-width: 600px;
+    max-width: 100%;
     margin: 0 auto;
     display: block;
+    height: auto;
 }
 
 .hero__numbers{
@@ -155,6 +160,8 @@ body{
 .hero__icon{
     display: block;
     width: 18%;
+    max-width: 100%;
+    height: auto;
 }
 
 .hero__number{
@@ -170,6 +177,8 @@ body{
     display: block;
     width: 7%;
     margin-left: 5.5rem;
+    max-width: 100%;
+    height: auto;
 }
 
 .hero__number2{
@@ -225,9 +234,11 @@ body{
 
 .section__img{
     width: 75%;
-    max-width: 350px;
+    /* max-width: 350px; */
+    max-width: 100%;
     display: block;
     margin: 0 auto;
+    height: auto;
 }
 
 .section__texts{
@@ -286,8 +297,10 @@ body{
 .section__img3 {
     width: 80%;
     max-width: 350px;
+    max-width: 100%;
     display: block;
     margin: 0 auto;
+    height: auto;
 }
 
 .subtitle3 {
@@ -415,8 +428,11 @@ body{
 }
 
 .footer__logo {
-    height: 70%;
+    /* height: 70%; */
     width: 60%;
+    max-width: 100%;
+    display: block;
+    height: auto;
 }
 
 .footer__paragraph2 {
@@ -437,12 +453,24 @@ body{
     font-size: .9rem;
 }
 
+.footer__img {
+    max-width: 100%;
+    display: block;
+    height: auto;
+}
+
 .footer__contact--email {
     margin-top: -.8rem;
 }
 
 .footer__contact--email::after{
 content: "example@huddle.com";
+}
+
+.fooer__img2 {
+    max-width: 100%;
+    display: block;
+    height: auto;
 }
 
 .footer__social{
@@ -462,6 +490,9 @@ content: "example@huddle.com";
     width: 110%;
     display: block;
     margin-left: -.5rem;
+    max-width: 100%;
+    /* display: block; */
+    height: auto;
 }
 
 .footer__icon_instagram {
@@ -469,6 +500,9 @@ content: "example@huddle.com";
     display: block;
     filter: invert(100%);
     margin-left: -.5rem;
+    max-width: 100%;
+    /* display: block; */
+    height: auto;
 }
 
 .footer__icon_twitter {
@@ -477,6 +511,9 @@ content: "example@huddle.com";
     filter: invert(100%);
     margin-left: -.5rem;
     margin-top: .3rem;
+    max-width: 100%;
+    /* display: block; */
+    height: auto;
 }
 
 .footer__attribution{
@@ -561,7 +598,8 @@ content: "example@huddle.com";
     padding-top: 5.8rem;
     font-size: 46px;
     /* word-spacing: 5px; */
-    width: 103%;
+    /* width: 103%; */
+    width: 100%;
     letter-spacing: 1px;
     position: relative;
     left: -1.3rem;
@@ -787,12 +825,14 @@ content: "example@huddle.com";
 
     .section__img2 {
         width: 88.5%;
-        max-width: 900px;
+        /* max-width: 900px; */
+        max-width: 100%;
         display: block;
         margin: 0 auto;
         position: relative;
         top: 7rem;
         right: 1.2rem;
+        height: auto;
     }
 
     .section__texts2 {
