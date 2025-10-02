@@ -59,6 +59,7 @@ body{
     overflow: visible;
     /* overflow: clip; */
     padding: var(--padding-container);
+    box-sizing: border-box;
 }
 
 .hero{
@@ -1081,3 +1082,41 @@ content: "example@huddle.com";
     }   
     
     }
+
+/* PATCH TEMPORAL: evita scroll horizontal en Chromium mientras se investiga */
+/* html, body {
+  overflow-x: hidden !important;
+  min-width: 0 !important;
+} */
+
+/* Protecciones comunes */
+/* img, picture, svg, video, .hero__img, .section__img, .section__img2, .section__img3 {
+  max-width: 100% !important;
+  height: auto !important;
+  display: block;
+} */
+
+/* Evitar anchos mayores al contenedor en títulos o elementos */
+/* .hero__title, .hero__title * {
+  width: auto !important;
+  max-width: 100% !important;
+  left: auto !important;
+} */
+
+/* Forzar que elementos posicionados no salgan del flujo (modo seguro) */
+/* .hero__logo, .hero__cta {
+  position: relative !important;
+  left: auto !important;
+  right: auto !important;
+  max-width: 45% !important;
+} */
+
+/* Asegurar que .container no recorte ni empuje overflow inesperado */
+/* .container {
+  overflow: visible !important;
+  max-width: 1200px;
+  box-sizing: border-box;
+} */
+
+/* Waves: mantener dentro del ancho */
+/* .wave { left: 0 !important; right: 0 !important; max-width: 100% !important; box-sizing: border-box; } */
