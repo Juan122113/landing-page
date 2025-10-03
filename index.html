@@ -2,16 +2,37 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   
   <title>Huddle landing page with curved sections</title>
   <link rel="stylesheet" href="css/style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Poppins:wght@700&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Poppins:wght@700&display=swap" rel="stylesheet">
 </head>
+
+<!-- <script>
+  (function(){
+    if (!window.visualViewport) return; // navegadores que no lo soportan
+    function handleVV(){
+      // si la visualViewport es claramente más angosta que el layout -> ocultar overflow-x
+      const vv = window.visualViewport.width;
+      const layoutW = document.documentElement.clientWidth;
+      if (vv < layoutW - 6) {
+        document.documentElement.style.overflowX = 'hidden';
+      } else {
+        document.documentElement.style.overflowX = ''; // restaura
+      }
+    }
+    window.visualViewport.addEventListener('resize', handleVV, {passive:true});
+    window.visualViewport.addEventListener('scroll', handleVV, {passive:true});
+    // run once on load
+    handleVV();
+  })();
+</script> -->
+
 
 <body>
 

@@ -1120,3 +1120,78 @@ content: "example@huddle.com";
 
 /* Waves: mantener dentro del ancho */
 /* .wave { left: 0 !important; right: 0 !important; max-width: 100% !important; box-sizing: border-box; } */
+
+
+/* ======= PARCHE: evitar scroll horizontal en Chromium/Edge ======= */
+
+/* 1) seguridad general */
+/* html, body { */
+  /* box-sizing: border-box;
+  min-width: 0; */
+  /* parche temporal y seguro: evita que la visualViewport muestre scroll horizontal */
+  /* overflow-x: hidden;
+} */
+
+/* 2) asegurar imágenes y SVGs para que no rompan el ancho */
+/* img, picture, svg, video, .hero__img, .section__img, .section__img2, .section__img3 {
+  max-width: 100%;
+  height: auto;
+  display: block;
+} */
+
+/* 3) neutralizar anchos peligrosos (ej. width:103%) */
+/* .hero__title, .hero__title * {
+  width: auto !important;
+  max-width: calc(100% - 2rem) !important; deja un pequeño margen seguro */
+  /* box-sizing: border-box !important;
+  overflow-wrap: break-word;
+} */
+
+/* 4) logos / CTAs posicionados: evitar offsets absolutos que empujen layout */
+/* .hero__logo, .hero__cta {
+  position: relative !important;
+  left: auto !important;
+  right: auto !important;
+  max-width: 45% !important;
+  box-sizing: border-box !important;
+} */
+
+/* 5) container seguro */
+/* .container {
+  overflow: visible !important;
+  box-sizing: border-box;
+  width: min(90%, 1200px); /* asegura que no se exceda */
+/* } */ 
+
+/* 6) waves: centrarlas y forzarlas a no salirse del viewport */
+/* .wave {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100vw;        /* ocupa la anchura real del viewport de layout */
+  /* max-width: 100%;
+  height: 100px;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  background-size: cover;
+  pointer-events: none;
+  box-sizing: border-box;
+} */ */
+
+/* 7) evitá que pseudo-elementos del footer (content) empujen el ancho */
+/* .footer__contact::after,
+.footer__contact--email::after {
+  display: inline-block;
+  max-width: calc(100% - 24px);
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+} */
+
+/* 8) ajustes específicos responsive - evita offsets grandes en small screens */
+/* @media (max-width: 480px) {
+  .hero__nav.container { margin-left: 0; margin-right: 0; padding-left: .5rem; padding-right: .5rem; }
+  .hero__logo { max-width: 36%; margin-top: .5rem; position: relative; left: 0; }
+  .hero__cta  { position: relative; right: 0; margin-top: .5rem; }
+  .subtitle, .subtitle2, .subtitle3, .subtitle4 { padding-left: .5rem; padding-right: .5rem; }
+ }*/
