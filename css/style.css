@@ -1176,7 +1176,7 @@ content: "example@huddle.com";
   background-size: cover;
   pointer-events: none;
   box-sizing: border-box;
-} */ */
+} */ 
 
 /* 7) evitá que pseudo-elementos del footer (content) empujen el ancho */
 /* .footer__contact::after,
