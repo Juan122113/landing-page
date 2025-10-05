@@ -25,6 +25,10 @@ html {
     padding: 0;
     /* background-color: #000; */
     /* overflow: hidden; */
+    box-sizing: border-box;
+    min-width: 0;
+    max-width: 100%;
+    overflow-x: hidden;
 }
 
 body{
@@ -44,6 +48,10 @@ body{
     /* flex-direction: column; */
     /* max-width: 2560px; */
     /* overflow: hidden; */
+    box-sizing: border-box;
+    min-width: 0;
+    max-width: 100%;
+    overflow-x: hidden;
 }
 
 /* .main {
@@ -51,7 +59,7 @@ body{
 } */
 
 .container{
-    width: 90%;
+    /* width: 90%; */
     max-width: 1200px;
     margin: 0 auto;
     /* overflow: hidden; */
@@ -60,6 +68,9 @@ body{
     /* overflow: clip; */
     padding: var(--padding-container);
     box-sizing: border-box;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    width: 100%;
 }
 
 .hero{
@@ -101,7 +112,12 @@ body{
 .hero__main{
     text-align: center;
     color: var(--very-dark-cyan);
-    padding: 75px .3rem 20px;
+    /* padding: 75px .3rem 20px; */
+    padding: 75px 1rem 20px 1rem;
+    box-sizing: border-box;
+    /* padding-left: 1rem; */
+    /* padding-right: 1rem; */
+    width: 100%;
 }
 
 .hero__title{
@@ -218,6 +234,10 @@ body{
 .section{
     background-color: var(--very-pale-blue);
     --padding-container: 78px 0 110px;
+    box-sizing: border-box;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    width: 100%;
 }
 
 .section--white{
@@ -377,6 +397,10 @@ body{
     max-width: 100%;
     height: 100%;
     min-height: 100%;
+    box-sizing: border-box;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    width: 100%;
 }
 
 .footer__title{
@@ -920,6 +944,10 @@ content: "example@huddle.com";
     .question__texts {
         position: relative;
         top: 4.9rem;
+        box-sizing: border-box;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        width: 100%;
     }
 
     .wave--top--question {
@@ -1195,3 +1223,68 @@ content: "example@huddle.com";
   .hero__cta  { position: relative; right: 0; margin-top: .5rem; }
   .subtitle, .subtitle2, .subtitle3, .subtitle4 { padding-left: .5rem; padding-right: .5rem; }
  }*/
+
+ /* ======= PARCHE para Device Emulation (Chromium) ======= */
+html, body {
+  box-sizing: border-box;
+  min-width: 0;
+  max-width: 100%;
+  overflow-x: hidden; /* evita scroll horizontal en visualViewport reducida */
+}
+
+/* Añadir un 'padding safety' lateral a los contenedores principales */
+.container,
+.hero__main,
+.section,
+.question__texts,
+.footer__container {
+  box-sizing: border-box;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  width: 100%;
+}
+
+/* Asegurar que nada use 100vw (problemático) */
+.wave,
+.wave--top,
+.wave--bottom,
+.wave--top--question,
+.wave--bottom--question {
+  left: 0 !important;
+  right: 0 !important;
+  width: 100% !important;   /* usar 100% en lugar de 100vw */
+  max-width: 100%;
+  transform: none !important;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* Evitar anchos mayores al contenedor en títulos/elementos que tocaban el borde */
+.hero__title, .hero__title * {
+  width: auto !important;
+  max-width: calc(100% - 2rem) !important; /* deja 1rem margen de seguridad por lado */
+  word-break: break-word;
+  box-sizing: border-box;
+}
+
+/* Logos/CTAs absoluto -> hacerlos relativos en pantallas chicas */
+.hero__logo, .hero__cta {
+  position: relative !important;
+  left: auto !important;
+  right: auto !important;
+  max-width: 45% !important;
+  box-sizing: border-box;
+}
+
+/* Media seguros */
+img, picture, svg, video { max-width: 100% !important; height: auto !important; display: block !important; }
+
+/* Footer: prevenir pseudo-content que empuje el ancho */
+.footer__contact::after,
+.footer__contact--email::after {
+  display: inline-block;
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
