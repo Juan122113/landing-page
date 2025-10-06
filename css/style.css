@@ -125,6 +125,10 @@ body{
     padding-bottom: .4rem;
     /* padding-top: 0rem; */
     font-size: 1.5rem;
+    width: auto !important;
+    max-width: calc(100% - 2rem) !important; /* deja 1rem margen de seguridad por lado */
+    word-break: break-word;
+    box-sizing: border-box;
 }
 
 .hero__paragraph{
@@ -215,20 +219,40 @@ body{
     height: 100px;
     background-repeat: no-repeat;
     background-size: 100% 100px;
+    left: 0 !important;
+    right: 0 !important;
+    max-width: 100%;
+    transform: none !important;
+    margin: 0;
+    box-sizing: border-box;
 }
 
 .wave--bottom{
-    left: 0;
+    /* left: 0; */
     bottom: 0;
     background-image: var(--wave-bottom);
+    left: 0 !important;
+    right: 0 !important;
+    width: 100% !important;   /* usar 100% en lugar de 100vw */
+    max-width: 100%;
+    transform: none !important;
+    margin: 0;
+    box-sizing: border-box;
 }
 
 .wave--top{
-    left: 0;
+    /* left: 0; */
     top: 0;
     background-image: var(--wave-top);
     /* position: relative; */
     /* top: 5rem; */
+    left: 0 !important;
+    right: 0 !important;
+    width: 100% !important;   /* usar 100% en lugar de 100vw */
+    max-width: 100%;
+    transform: none !important;
+    margin: 0;
+    box-sizing: border-box;
 }
 
 .section{
@@ -363,15 +387,29 @@ body{
 }
 
 .wave--top--question {
-    left: 0;
+    /* left: 0; */
     top: 0;
     background-image: var(--wave-top);
+    left: 0 !important;
+    right: 0 !important;
+    width: 100% !important;   /* usar 100% en lugar de 100vw */
+    max-width: 100%;
+    transform: none !important;
+    margin: 0;
+    box-sizing: border-box;
 }
 
 .wave--bottom--question {
-    left: 0;
+    /* left: 0; */
     bottom: 0;
     background-image: var(--wave-bottom);
+    left: 0 !important;
+    right: 0 !important;
+    width: 100% !important;   /* usar 100% en lugar de 100vw */
+    max-width: 100%;
+    transform: none !important;
+    margin: 0;
+    box-sizing: border-box;
 }
 
 .footer{
