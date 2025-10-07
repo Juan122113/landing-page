@@ -524,6 +524,11 @@ body{
     content: "Phone: +1-543-123-4567";
     margin-left: 15px;
     font-size: .9rem;
+    display: inline-block;
+    max-width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
 }
 
 .footer__img {
@@ -537,7 +542,12 @@ body{
 }
 
 .footer__contact--email::after{
-content: "example@huddle.com";
+    content: "example@huddle.com";
+    display: inline-block;
+    max-width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
 }
 
 .fooer__img2 {
@@ -597,6 +607,8 @@ content: "example@huddle.com";
 .footer__attribution--link{
     color: rgb(176, 214, 250);
 }
+
+img, picture, svg { max-width: 100% !important; height: auto !important; display: block !important; }
 
 
 @media (min-width: 768px){
@@ -1273,15 +1285,15 @@ content: "example@huddle.com";
  }*/
 
  /* ======= PARCHE para Device Emulation (Chromium) ======= */
-html, body {
+/* html, body {
   box-sizing: border-box;
   min-width: 0;
   max-width: 100%;
-  overflow-x: hidden; /* evita scroll horizontal en visualViewport reducida */
-}
+  overflow-x: hidden; evita scroll horizontal en visualViewport reducida */
+/* } */
 
 /* Añadir un 'padding safety' lateral a los contenedores principales */
-.container,
+/* .container,
 .hero__main,
 .section,
 .question__texts,
@@ -1290,49 +1302,49 @@ html, body {
   padding-left: 1rem;
   padding-right: 1rem;
   width: 100%;
-}
+} */
 
 /* Asegurar que nada use 100vw (problemático) */
-.wave,
+/* .wave,
 .wave--top,
 .wave--bottom,
 .wave--top--question,
 .wave--bottom--question {
   left: 0 !important;
   right: 0 !important;
-  width: 100% !important;   /* usar 100% en lugar de 100vw */
-  max-width: 100%;
+  width: 100% !important;   usar 100% en lugar de 100vw */
+  /* max-width: 100%;
   transform: none !important;
   margin: 0;
   box-sizing: border-box;
-}
+} */
 
 /* Evitar anchos mayores al contenedor en títulos/elementos que tocaban el borde */
-.hero__title, .hero__title * {
+/* .hero__title, .hero__title * {
   width: auto !important;
-  max-width: calc(100% - 2rem) !important; /* deja 1rem margen de seguridad por lado */
-  word-break: break-word;
+  max-width: calc(100% - 2rem) !important; deja 1rem margen de seguridad por lado */
+  /* word-break: break-word;
   box-sizing: border-box;
-}
+} */
 
 /* Logos/CTAs absoluto -> hacerlos relativos en pantallas chicas */
-.hero__logo, .hero__cta {
+/* .hero__logo, .hero__cta {
   position: relative !important;
   left: auto !important;
   right: auto !important;
   max-width: 45% !important;
   box-sizing: border-box;
-}
+} */
 
 /* Media seguros */
-img, picture, svg, video { max-width: 100% !important; height: auto !important; display: block !important; }
+/* img, picture, svg, video { max-width: 100% !important; height: auto !important; display: block !important; } */
 
 /* Footer: prevenir pseudo-content que empuje el ancho */
-.footer__contact::after,
+/* .footer__contact::after,
 .footer__contact--email::after {
   display: inline-block;
   max-width: 100%;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
-}
+} */
