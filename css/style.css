@@ -88,7 +88,12 @@ body{
 
 .hero__logo{
     width: 28%;
-    max-width: 160px;
+    /* max-width: 160px; */
+    position: relative !important;
+    left: auto !important;
+    right: auto !important;
+    max-width: 45% !important;
+    box-sizing: border-box;
 }
 
 .hero__huddle{
@@ -107,6 +112,11 @@ body{
     font-weight: 500;
     /* box-shadow: 0 0 1px; */
     font-size: .65rem;
+    position: relative !important;
+    left: auto !important;
+    right: auto !important;
+    max-width: 45% !important;
+    box-sizing: border-box;
 }
 
 .hero__main{
