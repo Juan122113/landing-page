@@ -94,6 +94,7 @@ body{
     right: auto !important;
     max-width: 45% !important;
     box-sizing: border-box;
+    margin-left: .5rem;
 }
 
 .hero__huddle{
@@ -139,6 +140,11 @@ body{
     max-width: calc(100% - 2rem) !important; /* deja 1rem margen de seguridad por lado */
     word-break: break-word;
     box-sizing: border-box;
+    margin-left: 1rem;
+    /* padding-bottom: .6rem; */
+    margin-bottom: .8rem;
+    position: relative;
+    bottom: .1rem;
 }
 
 .hero__paragraph{
@@ -147,6 +153,9 @@ body{
     margin: 16px auto;
     font-size: .85rem;
     font-weight: 600;
+    /* margin-bottom: 20rem; */
+    position: relative;
+    bottom: .18rem;
 }
 
 .cta{
@@ -1168,6 +1177,8 @@ img, picture, svg { max-width: 100% !important; height: auto !important; display
     .footer__contact--email {
         margin-top: 1.5rem;
     }   
+
+    img, picture, svg { max-width: 100% !important; height: auto !important; display: block !important; }
     
     }
 
