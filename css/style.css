@@ -228,13 +228,14 @@ body{
 
 .hero__item2{
     overflow: hidden;
-    margin-top: 2.5rem;
+    margin-top: 2.3rem;
+    /* position: relative; */
 }
 
 .hero__icon2{
     display: block;
     width: 7%;
-    margin-left: 5.5rem;
+    margin-left: 6rem;
     max-width: 100%;
     height: auto;
 }
@@ -315,16 +316,18 @@ body{
 }
 
 .section__img{
-    width: 75%;
+    width: 83%;
     /* max-width: 350px; */
     max-width: 100%;
     display: block;
     margin: 0 auto;
     height: auto;
+    position: relative;
+    top: .1rem;
 }
 
 .section__texts{
-    margin-top: 65px;
+    margin-top: 62px;
     text-align: center;
 }
 
@@ -336,7 +339,7 @@ body{
 
 .section__paragraph {
     font-size: .9rem;
-    margin: 0 .9rem;
+    margin: 0 0.05rem;
 }
 
 .wave--bottom2 {
