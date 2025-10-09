@@ -176,16 +176,19 @@ body{
 }
 
 .hero__img{
-    width: 90%;
+    width: 88%;
     max-width: 600px;
     max-width: 100%;
     margin: 0 auto;
     display: block;
     height: auto;
+    /* max-width: 100% !important;  */
+    /* height: auto !important; */
+    /* display: block !important;  */
 }
 
 .hero__numbers{
-    margin-top: 130px;
+    margin-top: 125px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -193,19 +196,34 @@ body{
     gap: 60px;
 }
 
-.hero__item{
+/* .hero__item{
     overflow: hidden;
-}
+} */
 
 .hero__icon{
     display: block;
-    width: 18%;
+    width: 20%;
     max-width: 100%;
     height: auto;
+    /* max-width: 100% !important; */
+    /* height: auto !important; */
+    /* display: block !important;  */
+    position: relative;
+    bottom: .3rem;
+    left: .05rem;
 }
 
 .hero__number{
     font-size: 60px;
+    position: relative;
+    bottom: .3rem;
+}
+
+.hero__community {
+    font-size: .9rem;
+    /* font-weight: 100; */
+    margin-top: .15rem;
+    /* position: relative; */
 }
 
 .hero__item2{
@@ -617,7 +635,7 @@ body{
     color: rgb(176, 214, 250);
 }
 
-img, picture, svg { max-width: 100% !important; height: auto !important; display: block !important; }
+/* img, picture, svg { max-width: 100% !important; height: auto !important; display: block !important; } */
 
 
 @media (min-width: 768px){
