@@ -849,10 +849,13 @@ body{
     /* align-items: center; */
     /* padding-bottom: 100px; */
     /* gap: 60px; */
+    gap: 8rem;
     }
 
     .hero__item{
         overflow: visible;
+        position: relative;
+        left: 1rem;
     }
 
     .hero__icon{
@@ -860,13 +863,14 @@ body{
     width: 18.5%;
     position: relative;
     left: 6.8rem;
-    bottom: .5rem;
+    bottom: .3rem;
     }
 
     .hero__number{
     font-size: 6rem;
     position: relative;
-    left: 3rem;
+    left: 6.5rem;
+    bottom: .4rem;
     }
 
     .hero__community {
@@ -874,32 +878,37 @@ body{
         /* margin-left: 4rem;
         margin-top: .5rem; */
         position: relative;
-        top: .6rem;
-        left: 3rem;
+        /* top: .6rem; */
+        left: 6.5rem;
         opacity: .5;
     }
 
     .hero__item2{
     overflow: visible;
-    margin-top: 1.8rem;
+    margin-top: 1.3rem;
+    position: relative;
+    /* right: 1rem; */
+    /* text-align: center; */
     }
 
     .hero__icon2{
     /* display: block; */
     width: 9%;
-    margin-left: 7rem;
+    /* margin-left: 3.4rem; */
     /* margin-bottom: 1.5rem; */
     position: relative;
-    bottom: .5rem;
+    bottom: .7rem;
     }
 
     .hero__number2 {
     font-size: 6rem;
-    margin-left: 3.7rem;
+    margin-left: 0rem;
     /* margin-bottom: 2rem; */
     /* font-weight: 700; */
     position: relative;
-    bottom: .5rem;
+    bottom: .6rem;
+    right: 2rem;
+    /* text-align: center; */
     }
 
     .hero__community2 {
@@ -908,10 +917,13 @@ body{
     font-size: 1.5rem;
     /* margin-left: 2rem; */
     position: relative;
-    left: 1.2rem;
-    bottom: .2rem;
+    /* left: 1.2rem; */
+    bottom: .5rem;
     font-weight: 100;
     opacity: .5;
+    right: 2.4rem;
+    margin: .5rem 9rem 0 8rem;
+    margin: 0rem 0rem 0 0rem;
     }
 
     .wave--bottom{
