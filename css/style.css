@@ -298,7 +298,7 @@ body{
 
 .section{
     background-color: var(--very-pale-blue);
-    --padding-container: 78px 0 110px;
+    --padding-container: 78px 0 40px;
     box-sizing: border-box;
     padding-left: 1rem;
     padding-right: 1rem;
@@ -345,7 +345,8 @@ body{
     --padding-container: 140px 0;
     --wave-top: url(../images/bg-section-bottom-mobile-1.svg);
     --wave-bottom: url(../images/bg-section-top-mobile-2.svg);
-    /* padding-top: 6rem; */
+    padding-top: 4.3rem;
+    padding-bottom: 5rem;
 }
 
 .wave--bottom2 {
@@ -389,7 +390,7 @@ body{
 
 .section3 {
     background-color: var(--very-pale-blue);
-    --padding-container: 100px 0 110px;
+    --padding-container: 20px 0 110px;
     z-index: 0;
     flex: 1;
 }
@@ -885,7 +886,7 @@ body{
         position: relative;
         /* top: .6rem; */
         left: 6.5rem;
-        opacity: .5;
+        /* opacity: 0; */
         top: .1rem;
     }
 
@@ -927,10 +928,10 @@ body{
         /* left: 1.2rem; */
         bottom: .25rem;
         font-weight: 100;
-        opacity: .5;
+        /* opacity: 0; */
         right: 3.1rem;
         /* margin: .5rem 9rem 0 8rem; */
-        margin: 0rem 0rem 0 0rem;
+        margin: 0;
     }
 
     .wave--bottom{
