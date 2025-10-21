@@ -100,6 +100,10 @@ body{
     box-sizing: border-box;
 }
 
+.hero__cta:hover {
+    opacity: .65;
+}
+
 .hero__main{
     text-align: center;
     color: var(--very-dark-cyan);
@@ -143,6 +147,10 @@ body{
     font-weight: 400;
     font-size: .8rem;
     box-shadow: .1rem .1rem 5px 0 rgba(0, 0, 0, 0.257);
+}
+
+.cta:hover {
+    opacity: .65;
 }
 
 .hero__picture{
@@ -405,6 +413,12 @@ body{
     font-weight: 400;
     font-size: .8rem;
     box-shadow: .1rem .1rem 5px 0 rgba(0, 0, 0, 0.257);
+    border: none;
+}
+
+.cta_question:hover {
+    opacity: .65;
+    cursor: pointer;
 }
 
 .wave--top--question {
@@ -501,6 +515,11 @@ body{
     padding: 13px 42px;
     font-weight: 600;
     margin-left: auto;
+}
+
+.footer__cta:hover {
+    opacity: .65;
+    cursor: pointer;
 }
 
 .footer__content{
