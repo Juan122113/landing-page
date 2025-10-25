@@ -14,7 +14,7 @@
     --very-dark-cyan: hsl(192, 100%, 9%);
     --very-pale-blue: hsl(207, 100%, 98%);
     
-    --padding-container: 80px 0;
+    --padding-container: 5rem 0;
 }
 
 html {
@@ -65,7 +65,7 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    --padding-container: 1.5rem 0 40px .5rem;
+    --padding-container: 1.5rem 0 2.5rem .5rem;
 }
 
 .hero__logo{
@@ -107,7 +107,7 @@ body{
 .hero__main{
     text-align: center;
     color: var(--very-dark-cyan);
-    padding: 75px 1rem 20px 1rem;
+    padding: 4.688rem 1rem 1.25rem 1rem;
     box-sizing: border-box;
     width: 100%;
 }
@@ -129,7 +129,7 @@ body{
 .hero__paragraph{
     width: 90%;
     line-height: 1.55;
-    margin: 16px auto;
+    margin: 1rem auto;
     font-size: .85rem;
     font-weight: 600;
     position: relative;
@@ -141,7 +141,7 @@ body{
     background-color: var(--pink);
     color: #fff;
     text-decoration: none;
-    padding: 12px 40px;
+    padding: 0.75rem 2.5rem;
     border-radius: 30px;
     margin-top: 1.8rem;
     font-weight: 400;
@@ -154,12 +154,12 @@ body{
 }
 
 .hero__picture{
-    margin-top: 100px;
+    margin-top: 6.25rem;
 }
 
 .hero__img{
     width: 88%;
-    max-width: 600px;
+    max-width: 37.5rem;
     max-width: 100%;
     margin: 0 auto;
     display: block;
@@ -167,12 +167,12 @@ body{
 }
 
 .hero__numbers{
-    margin-top: 125px;
+    margin-top: 7.813rem;
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-bottom: 100px;
-    gap: 60px;
+    padding-bottom: 6.25rem;
+    gap: 3.75rem;
 }
 
 .hero__icon{
@@ -186,7 +186,7 @@ body{
 }
 
 .hero__number{
-    font-size: 60px;
+    font-size: 3.75rem;
     position: relative;
     bottom: .3rem;
 }
@@ -223,9 +223,9 @@ body{
 .wave{
     position: absolute;
     width: 100%;
-    height: 100px;
+    height: 6.25rem;
     background-repeat: no-repeat;
-    background-size: 100% 100px;
+    background-size: 100% 6.25rem;
     left: 0;
     right: 0;
     max-width: 100%;
@@ -237,11 +237,11 @@ body{
 .wave--bottom{
     bottom: 0;
     background-image: var(--wave-bottom);
-    left: 0 !important;
-    right: 0 !important;
-    width: 100% !important;
+    left: 0;
+    right: 0;
+    width: 100%;
     max-width: 100%;
-    transform: none !important;
+    transform: none;
     margin: 0;
     box-sizing: border-box;
 }
@@ -249,18 +249,18 @@ body{
 .wave--top{
     top: 0;
     background-image: var(--wave-top);
-    left: 0 !important;
-    right: 0 !important;
-    width: 100% !important;
+    left: 0;
+    right: 0;
+    width: 100%;
     max-width: 100%;
-    transform: none !important;
+    transform: none;
     margin: 0;
     box-sizing: border-box;
 }
 
 .section{
     background-color: var(--very-pale-blue);
-    --padding-container: 78px 0 40px;
+    --padding-container: 4.875rem 0 2.5rem;
     box-sizing: border-box;
     padding-left: 1rem;
     padding-right: 1rem;
@@ -283,12 +283,12 @@ body{
 }
 
 .section__texts{
-    margin-top: 62px;
+    margin-top: 3.875rem;
     text-align: center;
 }
 
 .subtitle{
-    margin: 16px;
+    margin: 1rem;
     font-family: var(--poppins);
     font-size: 1.25rem;
 }
@@ -303,7 +303,7 @@ body{
 .section--white{
     background-color: #fff;
     position: relative;
-    --padding-container: 140px 0;
+    --padding-container: 8.75rem 0;
     --wave-top: url(../images/bg-section-bottom-mobile-1.svg);
     --wave-bottom: url(../images/bg-section-top-mobile-2.svg);
     padding-top: 4.3rem;
@@ -321,20 +321,20 @@ body{
 .section__img2 {
     width: 85%;
     margin: 0 auto;
-    max-width: 100% !important;
-    height: auto !important;
-    display: block !important;
+    max-width: 100%;
+    height: auto;
+    display: block;
     position: relative;
     bottom: .3rem;
 }
 
 .section__texts2 {
-    margin-top: 65px;
+    margin-top: 4.063rem;
     text-align: center;
 }
 
 .subtitle2{
-    margin: 18px 16px 14px 16px;
+    margin: 1.125rem 1rem 0.875rem;
     font-family: var(--poppins);
     font-size: 1.25rem;
 }
@@ -348,7 +348,7 @@ body{
 
 .section3 {
     background-color: var(--very-pale-blue);
-    --padding-container: 20px 0 110px;
+    --padding-container: 1.25rem 0 6.875rem;
     z-index: 0;
     flex: 1;
 }
@@ -367,12 +367,12 @@ body{
 }
 
 .section__texts3{
-    margin-top: 64px;
+    margin-top: 4rem;
     text-align: center;
 }
 
 .subtitle3 {
-    margin: 16px 0 13px;
+    margin: 1rem 0 0.813rem;
     font-family: var(--poppins);
     font-size: 1.25rem;
 }
@@ -389,7 +389,7 @@ body{
     text-align: center;
     --wave-top: url(../images/bg-section-bottom-mobile-2.svg);
     --wave-bottom: url(../images/bg-footer-top-mobile.svg);
-    --padding-container: 158px 0 250px;
+    --padding-container: 9.875rem 0 15.625rem;
     height: 100%;
 }
 
@@ -398,7 +398,7 @@ body{
 }
 
 .subtitle4 {
-    margin: 16px 0 13px;
+    margin: 1rem 0 0.813rem;
     font-family: var(--poppins);
 }
 
@@ -407,12 +407,12 @@ body{
     background-color: var(--pink);
     color: #fff;
     text-decoration: none;
-    padding: 11.5px 40px;
+    padding: 0.719rem 2.5rem;
     border-radius: 30px;
     margin-top: 1.5rem;
     font-weight: 400;
     font-size: .8rem;
-    box-shadow: .1rem .1rem 5px 0 rgba(0, 0, 0, 0.257);
+    box-shadow: .1rem .1rem 0.313rem 0 rgba(0, 0, 0, 0.257);
     border: none;
 }
 
@@ -424,11 +424,11 @@ body{
 .wave--top--question {
     top: 0;
     background-image: var(--wave-top);
-    left: 0 !important;
-    right: 0 !important;
-    width: 100% !important;
+    left: 0;
+    right: 0;
+    width: 100%;
     max-width: 100%;
-    transform: none !important;
+    transform: none;
     margin: 0;
     box-sizing: border-box;
 }
@@ -436,11 +436,11 @@ body{
 .wave--bottom--question {
     bottom: 0;
     background-image: var(--wave-bottom);
-    left: 0 !important;
-    right: 0 !important;
-    width: 100% !important;
+    left: 0;
+    right: 0;
+    width: 100%;
     max-width: 100%;
-    transform: none !important;
+    transform: none;
     margin: 0;
     box-sizing: border-box;
     position: relative;
@@ -461,7 +461,7 @@ body{
 
 .footer__container{
     padding-top: .8rem;
-    margin: 0rem 1.8rem 0 1.8rem;
+    margin: 0 1.8rem 0 1.8rem;
     overflow: visible;
     max-width: 100%;
     height: 100%;
@@ -478,7 +478,7 @@ body{
 
 .footer__title{
     text-transform: uppercase;
-    margin-bottom: 14px;
+    margin-bottom: 0.875rem;
     font-family: var(--poppins);
     font-size: 1.25rem;
     font-weight: 600;
@@ -486,14 +486,14 @@ body{
 
 .footer__paragraph{
     line-height: 1.7;
-    margin: 10px 1.5rem 29px 0rem;
+    margin: 0.625rem 1.5rem 1.813rem 0;
     font-size: .9rem;
 }
 
 .footer__form{
     display: flex;
     flex-wrap: wrap;
-    margin-bottom: 80px;
+    margin-bottom: 5rem;
     margin-right: 1.2rem;
     /* align-items: center; */
 }
@@ -542,12 +542,12 @@ body{
 .footer__input{
     flex-basis: 100%;
     flex-grow: 1;
-    font-size: 16px;
+    font-size: 1rem;
     font-family: var(--open-sans);
     border: none;
     outline: none;
     border-radius: 7px;
-    padding: 13.5px 6px;
+    padding: 0.844rem 0.375rem;
     margin-bottom: .4rem;
     width: 100%;
     border: solid;
@@ -601,14 +601,14 @@ body{
 } */
 
 .footer__cta{
-    font-size: 17px;
+    font-size: 1.063rem;
     font-family: var(--open-sans);
     background-color: var(--pink);
     color: #fff;
     text-decoration: none;
     border: none;
     border-radius: 5px;
-    padding: 13px 40.5px;
+    padding: 0.813rem 2.531rem;
     font-weight: 600;
 }
 
@@ -647,13 +647,13 @@ body{
 }
 
 .footer__contact{
-    line-height: 50px;
+    line-height: 3.125rem;
     margin-top: .5rem;
 }
 
 .footer__contact::after{
     content: "Phone: +1-543-123-4567";
-    margin-left: 38px;
+    margin-left: 2.375rem;
     font-size: .9rem;
     display: inline-block;
     max-width: 100%;
@@ -700,7 +700,7 @@ body{
 .footer__social{
     display: flex;
     justify-content: left;
-    gap: 9px;
+    gap: 0.563rem;
     width: 35%;
     position: relative;
     bottom: .3rem;
@@ -711,7 +711,7 @@ body{
 
 .footer__link__facebook{
     text-decoration: none;
-    width: 40px;
+    width: 2.5rem;
 }
 
 .footer__icon_facebook{
@@ -768,7 +768,7 @@ body{
 
 .footer__link__instagram {
     text-decoration: none;
-    width: 40px;
+    width: 2.5rem;
 }
 
 .footer__icon_instagram {
@@ -809,7 +809,7 @@ body{
 
 .footer__link__twitter {
     text-decoration: none;
-    width: 40px;
+    width: 2.5rem;
 }
 
 .footer__icon_twitter {
@@ -882,12 +882,12 @@ body{
         display: flex;
         justify-content: space-between;
         align-items: center;
-        --padding-container: 1.5rem 0 40px .5rem;
+        --padding-container: 1.5rem 0 2.5rem .5rem;
     }
 
     .hero__logo{
         width: 16.9%;
-        max-width: 260px;
+        max-width: 16.25rem;
         margin-left: 3.95rem;
         top: 1.7rem;
     }
@@ -907,14 +907,14 @@ body{
     }
 
     .hero__main{
-        padding: 6.2rem .3rem 20px;
+        padding: 6.2rem .3rem 1.25rem;
     }
     
     .hero__title{
         padding-top: 5.8rem;
-        font-size: 46px;
+        font-size: 2.875rem;
         width: 100%;
-        letter-spacing: .9px;
+        letter-spacing: 0.056rem;
         position: relative;
         left: -.3rem;
         font-weight: 600;
@@ -927,7 +927,7 @@ body{
         text-align: center;
         padding: 0rem 11rem;
         padding-top: .1rem;
-        min-width: 700px;
+        min-width: 43.75rem;
     }
 
     .cta{
@@ -936,22 +936,22 @@ body{
         font-weight: 600;
         font-size:1.3rem;
         margin-top: 2rem;
-        box-shadow: 0rem .2rem 15px 0 rgba(0, 0, 0, 0.257);
+        box-shadow: 0rem .2rem 0.938rem 0 rgba(0, 0, 0, 0.257);
     }
 
     .hero__picture{
-        margin-top: 108px;
+        margin-top: 6.75rem;
     }
 
     .hero__img{
         width: 72.5%;
-        max-width: 1050px;
+        max-width: 65.625rem;
     }
 
     .hero__numbers{
         justify-content: space-around;
         flex-direction: row;
-        margin-top: 110px;
+        margin-top: 6.875rem;
         gap: 8rem;
         right: 2.2rem;
         position: relative;
@@ -1045,7 +1045,7 @@ body{
 
     .section__img{
         width: 86%;
-        max-width: 900px;
+        max-width: 56.25rem;
         position: relative;
         top: 4.2rem;
         left: .6rem;
@@ -1082,7 +1082,7 @@ body{
         --wave-top: url(../images/bg-section-bottom-desktop-1.svg);
         --wave-bottom: url(../images/bg-section-top-desktop-2.svg);
         position: relative;
-        --padding-container: 80px 0 350px;
+        --padding-container: 5rem 0 21.875rem;
         padding-top: 0;
         padding-bottom: 0;
         padding-left: 0;
@@ -1102,6 +1102,7 @@ body{
         background-image: var(--wave-top);
         position: absolute;
         bottom: 1700px;
+        bottom: 106.25rem;
     }
 
     .section__img2 {
@@ -1148,7 +1149,7 @@ body{
 
     .section3 {
         background-color: var(--very-pale-blue);
-        --padding-container: 90px 0 60px;
+        --padding-container: 5.725rem 0 3.75rem;
         z-index: 0;
         padding-left: 6.3rem;
         padding-right: 6rem;
@@ -1161,16 +1162,16 @@ body{
     }
 
     .section__img3 {
-        width: 93.5%;
-        max-width: 1000px;
+        width: 96.5%;
+        max-width: 62.5rem;
         position: relative;
         left: 0;
-        margin-right: 1.4rem;
+        margin-right: 2.9rem;
         top: .7rem;
     }
 
     .section__texts3{
-        padding-bottom: 1.9rem;
+        padding-bottom: 2.1rem;
     }
 
     .subtitle3 {
@@ -1188,7 +1189,7 @@ body{
         position: relative;
         bottom: .35rem;
         text-align: left;
-        width: 81.3%;
+        width: 81%;
     }
 
     .question{
@@ -1217,17 +1218,17 @@ body{
     }
 
     .subtitle4 {
-        margin: 16px 0 13px 12px;
+        margin: 1rem 0 0.813rem 0.75rem;
         font-size: 2.5rem;
     }
 
     .cta_question {
-        padding: 27.5px 100px;
+        padding: 1.719rem 6.25rem;
         border-radius: 50px;
         margin-top: 1.6rem;
         font-weight: 600;
         font-size: 1.3rem;
-        box-shadow: .1rem .2rem 15px 0 rgba(0, 0, 0, 0.257); 
+        box-shadow: .1rem .2rem 0.938rem 0 rgba(0, 0, 0, 0.257); 
     }
 
     .wave--bottom--question {
@@ -1235,11 +1236,20 @@ body{
         bottom: 0;
         background-image: var(--wave-bottom);
         position: relative;
+        /* padding-bottom: 2rem; */
+        margin-bottom: -.4rem;
     }
 
     .footer {
         height: 100%;
-        padding-top: 2.4rem;
+        padding-top: 2.5rem;
+        /* position: relative;
+        top: -.5rem; */
+        /* bottom: .2rem;
+        height: auto;
+        height: 100%; */
+        /* padding-bottom: .5rem; */
+        /* margin-bottom: 10.5rem; */
     }
 
     .footer__container{
@@ -1264,7 +1274,7 @@ body{
     }
 
     .footer__paragraph{
-        margin: 16px 0 27px;
+        margin: 1rem 0 1.688rem;
         width: 65%;
         line-height: 1.65;
     }
@@ -1288,7 +1298,7 @@ body{
     .footer__input{
         border-radius: 8px;
         /* padding: 13px 30px; */
-        margin: .8rem 3.2vw 15px 0;
+        margin: .8rem 3.2vw 0.938rem 0;
         /* width: 100%; */
     }
 
@@ -1308,10 +1318,10 @@ body{
     }
 
     .footer__cta{
-        font-size: 16px;
+        font-size: 1rem;
         font-family: var(--open-sans);
         border-radius: 5px;
-        padding: 1px 42px;
+        padding: 0.063rem 2.625rem;
         font-weight: 600;
         margin-left: auto;
         height: 3rem;
@@ -1324,7 +1334,7 @@ body{
 
     .footer__content{
         width: 30%;
-        max-width: 500px;
+        max-width: 31.25rem;
         height: 1%;
         position: relative;
         left: 6.5vw;
@@ -1348,7 +1358,7 @@ body{
     }
 
     .footer__contact{
-        line-height: 0px;
+        line-height: 0;
         margin-top: 1.1rem;
     }
 
@@ -1380,7 +1390,7 @@ body{
     }
 
     .footer__social {
-        gap: 11px;
+        gap: 0.688rem;
         width: 55%;
         bottom: 0;
         height: 105%;
@@ -1392,7 +1402,7 @@ body{
 
     .footer__link__facebook{
         /* text-decoration: none; */
-        width: 45px;
+        width: 2.813rem;
     }
 
     .footer__icon_facebook{
@@ -1403,14 +1413,14 @@ body{
         height: 105%;
         /* height: 105rem; */
         /* width: 250%; */
-        width: 42px;
+        width: 2.625rem;
         position: relative;
-        bottom: .05rem;
+        bottom: .5rem;
     }
 
     .footer__icon_facebook2 {
     /* width: 95%; */
-    width: 42px;
+    width: 2.625rem;
     /* display: block; */
     margin-left: -.65rem;
     /* max-width: 100%; */
@@ -1422,7 +1432,7 @@ body{
     }
 
     .footer__link__instagram {
-        width: 45px;
+        width: 2.625rem;
         position: relative;
         bottom: .15rem;
     }
@@ -1480,7 +1490,7 @@ body{
         margin-top: 5rem;
     }
 
-    img, picture, svg { max-width: 100% !important; height: auto !important; display: block !important; }
+    img, picture, svg { max-width: 100%; height: auto; display: block; }
 
     @media (max-width: 53.438rem) {
 
