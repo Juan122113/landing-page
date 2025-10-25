@@ -70,10 +70,10 @@ body{
 
 .hero__logo{
     width: 28%;
-    position: relative !important;
-    left: auto !important;
-    right: auto !important;
-    max-width: 45% !important;
+    position: relative;
+    left: auto;
+    right: auto;
+    max-width: 45%;
     box-sizing: border-box;
     margin-left: .5rem;
 }
@@ -93,10 +93,10 @@ body{
     border-radius: 30px;
     font-weight: 500;
     font-size: .65rem;
-    position: relative !important;
-    left: auto !important;
-    right: auto !important;
-    max-width: 45% !important;
+    position: relative;
+    left: auto;
+    right: auto;
+    max-width: 45%;
     box-sizing: border-box;
 }
 
@@ -116,8 +116,8 @@ body{
     font-family: var(--poppins);
     padding-bottom: .4rem;
     font-size: 1.5rem;
-    width: auto !important;
-    max-width: calc(100% - 2rem) !important; /* deja 1rem margen de seguridad por lado */
+    width: auto;
+    max-width: calc(100% - 2rem); /* deja 1rem margen de seguridad por lado */
     word-break: break-word;
     box-sizing: border-box;
     margin-left: 1rem;
@@ -226,10 +226,10 @@ body{
     height: 100px;
     background-repeat: no-repeat;
     background-size: 100% 100px;
-    left: 0 !important;
-    right: 0 !important;
+    left: 0;
+    right: 0;
     max-width: 100%;
-    transform: none !important;
+    transform: none;
     margin: 0;
     box-sizing: border-box;
 }
@@ -872,7 +872,7 @@ body{
     color: rgb(176, 214, 250);
 }
 
-@media (min-width: 768px){
+@media (min-width: 48rem){
 
     .hero{
         --wave-bottom: url(../images/bg-section-top-desktop-1.svg);
@@ -1361,7 +1361,7 @@ body{
     .footer__img {
         position: relative;
         top: .6rem;
-        right: 100;
+        /* right: 100; */
         left: 0;
     }
 
@@ -1482,7 +1482,7 @@ body{
 
     img, picture, svg { max-width: 100% !important; height: auto !important; display: block !important; }
 
-    @media (max-width: 855px) {
+    @media (max-width: 53.438rem) {
 
         .footer__newsletter{
             left: 1rem;
