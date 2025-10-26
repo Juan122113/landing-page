@@ -118,7 +118,8 @@ body{
     font-size: 1.5rem;
     width: auto;
     max-width: calc(100% - 2rem); /* deja 1rem margen de seguridad por lado */
-    word-break: break-word;
+    /* word-break: break-word; */
+    overflow-wrap: break-word;
     box-sizing: border-box;
     margin-left: 1rem;
     margin-bottom: .8rem;
@@ -1054,7 +1055,9 @@ body{
     .section__texts{
         width: 45%;
         margin: 0%;
-        text-align: start;
+        /* text-align: start; */
+        text-align: inline-start;
+        /* text-align: end; */
         position: relative;
         bottom: .85rem;
         right: .1rem;
@@ -1120,6 +1123,7 @@ body{
         width: 45%;
         margin: 0%;
         text-align: start;
+        /* text-align: inline-start; */
         position: relative;
         top: 1.5rem;
         left: .5rem;
@@ -1178,7 +1182,8 @@ body{
         font-size: 2.5rem;
         position: relative;
         bottom: .9rem;
-        text-align: left;
+        text-align: start;
+        /* text-align: inline-start; */
         left: .2rem;
     }
 
