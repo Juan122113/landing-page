@@ -509,6 +509,13 @@ body{
     /* border-radius: 7px; */
     /* padding: 13px 6px; */
     margin-bottom: .9rem;
+    /* margin-bottom: 3.9vw;
+    margin-bottom: min(3.9vw, 30px);
+    margin-bottom: 30px;
+    margin-bottom: 14px;
+    padding-bottom: .9rem; */
+    /* margin-bottom: clamp(12vw, .9rem, 12vw); */
+    /* margin-bottom: calc(); */
     /* width: 100%; */
     /* opacity: 0; */
     /* display: none; */
@@ -860,6 +867,19 @@ body{
     /* z-index: 20; */
     /* opacity: 1; */
 /* } */
+
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0,0,0,0);
+    white-space: nowrap;
+    border: 0;
+    }
+
 
 .footer__attribution{
     font-size: .8rem;
