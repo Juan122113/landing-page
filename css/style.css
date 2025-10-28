@@ -70,7 +70,7 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    --padding-container: 1.5rem 0 2.5rem .5rem;
+    --padding-container: 1.5rem 0 1.5rem .5rem;
 }
 
 .hero__logo{
@@ -130,6 +130,7 @@ body{
     margin-bottom: .8rem;
     position: relative;
     bottom: .1rem;
+    line-height: 2.3rem;
 }
 
 .hero__paragraph{
@@ -160,12 +161,12 @@ body{
 }
 
 .hero__picture{
-    margin-top: 6.25rem;
+    margin-top: 6rem;
 }
 
 .hero__img{
     width: 88%;
-    max-width: 37.5rem;
+    /* max-width: 37.5rem; */
     max-width: 100%;
     margin: 0 auto;
     display: block;
@@ -173,7 +174,7 @@ body{
 }
 
 .hero__numbers{
-    margin-top: 7.813rem;
+    margin-top: 8.613rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -199,7 +200,7 @@ body{
 
 .hero__community {
     font-size: .9rem;
-    margin-top: .15rem;
+    margin-top: .65rem;
 }
 
 .hero__item2{
@@ -218,12 +219,14 @@ body{
 .hero__number2{
     font-size: 3.3rem;
     font-weight: 700;
+    margin-top: .5rem;
 }
 
 .hero__community2 {
-    margin: .5rem 9rem 0 8rem;
+    margin: .73rem 9rem 0 8rem;
     text-align: center;
     font-size: .8rem;
+    line-height: 1.5;
 }
 
 .wave{
@@ -289,10 +292,10 @@ body{
 }
 
 .section__texts{
-    margin-top: 3.875rem;
+    margin-top: 3.975rem;
     text-align: center;
-    text-align: inline-start;
-    text-align: start;
+    /* text-align: inline-start;
+    text-align: start; */
 }
 
 .subtitle{
@@ -303,7 +306,7 @@ body{
 
 .section__paragraph {
     font-size: .9rem;
-    margin: 0 0.07rem;
+    margin: 1.1rem 0.07rem 0;
     word-spacing: -.1rem;
     line-height: 1.3rem;
 }
@@ -314,7 +317,7 @@ body{
     --padding-container: 8.75rem 0;
     --wave-top: url(../images/bg-section-bottom-mobile-1.svg);
     --wave-bottom: url(../images/bg-section-top-mobile-2.svg);
-    padding-top: 4.3rem;
+    padding-top: 4.5rem;
     padding-bottom: 5rem;
     width: 100%;
     min-width: 100%;
@@ -337,12 +340,12 @@ body{
 }
 
 .section__texts2 {
-    margin-top: 4.063rem;
+    margin-top: 4.263rem;
     text-align: center;
 }
 
 .subtitle2{
-    margin: 1.125rem 1rem 0.875rem;
+    margin: 1.125rem 1rem 1.15rem;
     font-family: var(--poppins);
     font-size: 1.25rem;
 }
@@ -351,12 +354,12 @@ body{
     font-size: .9rem;
     letter-spacing: -.02rem;
     line-height: 1.3rem;
-    margin: 0 -0.1rem;
+    margin: 0 -0.01rem;
 }
 
 .section3 {
     background-color: var(--very-pale-blue);
-    --padding-container: 1.25rem 0 6.875rem;
+    --padding-container: 1.35rem 0 6.875rem;
     z-index: 0;
     flex: 1;
 }
@@ -375,12 +378,12 @@ body{
 }
 
 .section__texts3{
-    margin-top: 4rem;
+    margin-top: 4.05rem;
     text-align: center;
 }
 
 .subtitle3 {
-    margin: 1rem 0 0.813rem;
+    margin: 1rem 0 1.13rem;
     font-family: var(--poppins);
     font-size: 1.25rem;
 }
@@ -406,8 +409,12 @@ body{
 }
 
 .subtitle4 {
-    margin: 1rem 0 0.813rem;
+    margin: .95rem 0 0.813rem;
     font-family: var(--poppins);
+    line-height: 1.5;
+    /* width: 90%; */
+    /* width: 6rem; */
+    /* text-align: center */
 }
 
 .cta_question {
@@ -417,11 +424,12 @@ body{
     text-decoration: none;
     padding: 0.719rem 2.5rem;
     border-radius: 30px;
-    margin-top: 1.5rem;
+    margin-top: 1.53rem;
     font-weight: 400;
     font-size: .8rem;
     box-shadow: .1rem .1rem 0.313rem 0 rgba(0, 0, 0, 0.257);
     border: none;
+    height: 2.5rem;
 }
 
 .cta_question:hover {
@@ -486,7 +494,7 @@ body{
 
 .footer__title{
     text-transform: uppercase;
-    margin-bottom: 0.875rem;
+    margin-bottom: 1.075rem;
     font-family: var(--poppins);
     font-size: 1.25rem;
     font-weight: 600;
@@ -504,6 +512,11 @@ body{
     margin-bottom: 5rem;
     margin-right: 1.2rem;
     /* align-items: center; */
+}
+
+.footer__form:has(input:invalid) .input_advice {
+    /* display: block; */
+    opacity: .9;
 }
 
 .footer__input_wrapper {
@@ -573,7 +586,7 @@ body{
     font-family: var(--open-sans);
     outline: none;
     border-radius: 7px;
-    padding: 0.844rem 0.33rem;
+    padding: 0.944rem 0.33rem;
     margin-bottom: .4rem;
     width: 100%;
     border: solid;
@@ -610,16 +623,17 @@ body{
     font-size: .85rem;
 }
 
-.footer__input_wrapper:focus-within .input_advice {
+/* .footer__input_wrapper:focus-within .input_advice {
     opacity: .9;
-}
+} */
 
 .footer__cta__container {
     background-color: white;
     border-radius: 5px;
     margin-left: auto;
-    bottom: 1.5rem;
+    bottom: 1.3rem;
     position: relative;
+    /* height: 5rem; */
 }
 
 /* .footer__cta__container:hover {
@@ -634,8 +648,9 @@ body{
     text-decoration: none;
     border: none;
     border-radius: 5px;
-    padding: 0.763rem 2.651rem;
+    padding: .963rem 2.651rem;
     font-weight: 600;
+    /* height: 3rem; */
 }
 
 /* .footer__cta::before {
@@ -655,7 +670,7 @@ body{
 } */
 
 .footer__content{
-    margin-top: 4.5rem;
+    margin-top: 5.2rem;
 }
 
 .footer__logo {
@@ -674,7 +689,7 @@ body{
 
 .footer__contact{
     line-height: 3.125rem;
-    margin-top: .5rem;
+    margin-top: .6rem;
 }
 
 .footer__contact::after{
@@ -726,8 +741,8 @@ body{
 .footer__social{
     display: flex;
     justify-content: left;
-    gap: 0.563rem;
-    width: 35%;
+    gap: 0.163rem;
+    width: 31%;
     position: relative;
     bottom: .3rem;
     height: 20%;
@@ -906,7 +921,7 @@ body{
 
 
 .footer__attribution{
-    font-size: .8rem;
+    font-size: .7rem;
     color: #fff;
     position: absolute;
     bottom: 0;
@@ -963,12 +978,13 @@ body{
     }
     
     .hero__title{
-        padding-top: 5.8rem;
-        font-size: 2.875rem;
+        padding-top: 5rem;
+        font-size: 2.948rem;
         width: 100%;
-        letter-spacing: 0.056rem;
+        width: 110rem;
+        letter-spacing: 0.016rem;
         position: relative;
-        left: -.3rem;
+        left: -.2rem;
         font-weight: 600;
     }
 
@@ -978,21 +994,21 @@ body{
         font-weight: 600;
         text-align: center;
         padding: 0rem 11rem;
-        padding-top: .1rem;
+        padding-top: 1.15rem;
         min-width: 43.75rem;
     }
 
     .cta{
-        padding: 1.6rem 6rem;
+        padding: 1.73rem 6.1rem;
         border-radius: 50px;
         font-weight: 600;
         font-size:1.3rem;
-        margin-top: 2rem;
+        margin-top: 1.85rem;
         box-shadow: 0rem .2rem 0.938rem 0 rgba(0, 0, 0, 0.257);
     }
 
     .hero__picture{
-        margin-top: 6.75rem;
+        margin-top: 6.9rem;
     }
 
     .hero__img{
@@ -1003,7 +1019,7 @@ body{
     .hero__numbers{
         justify-content: space-around;
         flex-direction: row;
-        margin-top: 6.875rem;
+        margin-top: 7.175rem;
         gap: 8rem;
         right: 2.2rem;
         position: relative;
@@ -1020,21 +1036,22 @@ body{
         width: 18.5%;
         position: relative;
         left: 6.8rem;
-        bottom: .3rem;
+        bottom: .7rem;
     }
 
     .hero__number{
         font-size: 6rem;
         position: relative;
         left: 6.5rem;
-        bottom: .4rem;
+        bottom: .1rem;
     }
 
     .hero__community {
         font-size: 1.5rem;
         position: relative;
         left: 6.5rem;
-        top: .1rem;
+        top: .7rem;
+        opacity: .6;
     }
 
     .hero__item2{
@@ -1045,9 +1062,9 @@ body{
     }
 
     .hero__icon2{
-        width: 14%;
+        width: 13.5%;
         position: relative;
-        bottom: .9rem;
+        bottom: 1.1rem;
         right: 7.5rem;
     }
 
@@ -1055,17 +1072,19 @@ body{
         font-size: 6rem;
         margin-left: 0rem;
         position: relative;
-        bottom: .9rem;
+        bottom: .8rem;
         right: 2.1rem;
     }
 
     .hero__community2 {
         font-size: 1.5rem;
         position: relative;
-        bottom: .25rem;
+        /* bottom: .05rem; */
         font-weight: 100;
         right: 3.1rem;
         margin: 0;
+        top: .4rem;
+        opacity: .6;
     }
 
     .wave--bottom{
@@ -1078,7 +1097,7 @@ body{
         padding-right: 6.5rem;
         padding-left: 6.5rem;
         position: relative;
-        top: .2rem;
+        top: .8rem;
     }
 
     .section1 {
@@ -1106,8 +1125,8 @@ body{
     .section__texts{
         width: 45%;
         margin: 0%;
-        /* text-align: start; */
-        text-align: inline-start;
+        text-align: start;
+        /* text-align: inline-start; */
         /* text-align: end; */
         position: relative;
         bottom: .85rem;
@@ -1116,15 +1135,16 @@ body{
 
     .subtitle{
         font-size: 2.5rem;
-        margin-top: 10rem;
+        margin-top: 9.8rem;
         position: relative;
         right: .3rem;
+        /* height: 5rem; */
     }
 
     .section__paragraph {
         font-size: 1.1rem;
         position: relative;
-        top: .35rem;
+        top: .66rem;
         line-height: 1.5rem;
         margin-left: .6rem;
         margin-right: 1.95rem;
@@ -1165,7 +1185,7 @@ body{
         display: block;
         margin: 0 auto;
         position: relative;
-        top: 6.9rem;
+        top: 6.7rem;
         right: 1rem;
         height: auto;
     }
@@ -1193,7 +1213,7 @@ body{
         letter-spacing: -.02rem;
         line-height: 1.5rem;
         position: relative;
-        top: .52rem;
+        top: .65rem;
         left: .1rem;
     }
 
@@ -1204,7 +1224,7 @@ body{
 
     .section3 {
         background-color: var(--very-pale-blue);
-        --padding-container: 5.725rem 0 3.75rem;
+        --padding-container: 6.15rem 0 3.75rem;
         z-index: 0;
         padding-left: 6.3rem;
         padding-right: 6rem;
@@ -1243,9 +1263,9 @@ body{
         margin: 0;
         line-height: 1.5rem;
         position: relative;
-        bottom: .35rem;
+        bottom: .25rem;
         text-align: left;
-        width: 81%;
+        width: 79.423%;
     }
 
     .question{
@@ -1259,7 +1279,7 @@ body{
 
     .question__texts {
         position: relative;
-        top: 4.5rem;
+        top: 4.3rem;
         box-sizing: border-box;
         padding-left: 1rem;
         padding-right: 1rem;
@@ -1275,7 +1295,7 @@ body{
 
     .subtitle4 {
         margin: 1rem 0 0.813rem 0.75rem;
-        font-size: 2.5rem;
+        font-size: 2.482rem;
     }
 
     .cta_question {
@@ -1284,7 +1304,8 @@ body{
         margin-top: 1.6rem;
         font-weight: 600;
         font-size: 1.3rem;
-        box-shadow: .1rem .2rem 0.938rem 0 rgba(0, 0, 0, 0.257); 
+        box-shadow: .1rem .2rem 0.938rem 0 rgba(0, 0, 0, 0.257);
+        height: 5rem;
     }
 
     .wave--bottom--question {
@@ -1320,7 +1341,7 @@ body{
         /* max-width: 450px; */
         order: 1;
         position: relative;
-        top: 8.1rem;
+        top: 8.3rem;
         right: 7%;
         height: 5rem;
     }
@@ -1330,7 +1351,7 @@ body{
     }
 
     .footer__paragraph{
-        margin: 1rem 0 1.688rem;
+        margin: 1.25rem 0 1.688rem;
         width: 65%;
         line-height: 1.65;
     }
@@ -1471,7 +1492,7 @@ body{
         /* width: 250%; */
         width: 2.625rem;
         position: relative;
-        bottom: .5rem;
+        bottom: .6rem;
     }
 
     .footer__icon_facebook2 {
