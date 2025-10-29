@@ -514,11 +514,6 @@ body{
     /* align-items: center; */
 }
 
-.footer__form:has(input:invalid) .input_advice {
-    /* display: block; */
-    opacity: .9;
-}
-
 .footer__input_wrapper {
     flex-basis: 100%;
     /* flex-grow: 1; */
@@ -621,6 +616,11 @@ body{
     opacity: 0;
     color: red;
     font-size: .85rem;
+}
+
+.footer__form:has(input:invalid) .input_advice {
+    /* display: block; */
+    opacity: .9;
 }
 
 /* .footer__input_wrapper:focus-within .input_advice {
