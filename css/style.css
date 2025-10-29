@@ -618,14 +618,14 @@ body{
     font-size: .85rem;
 }
 
-/* .footer__form:has(input:invalid) .input_advice {
-    display: block;
-    opacity: .9;
-} */
-
-.input:invalid + .input_advice {
+.footer__form:has(input:invalid) .input_advice {
+    /* display: block; */
     opacity: .9;
 }
+
+/* .input:invalid + .input_advice {
+    opacity: .9;
+} */
 
 /* .footer__input_wrapper:focus-within .input_advice {
     opacity: .9;
